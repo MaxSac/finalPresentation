@@ -1,0 +1,59 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Overview}{online}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeltitlesource}{title}
+      \field{title}{Astroparticle Physik}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://astro.desy.de/
+      \endverb
+    \endentry
+    \entry{FACT}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8fa40869fce5e84ec5ad510c435f1b43}{%
+           family={Carlo},
+           familyi={C\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8fa40869fce5e84ec5ad510c435f1b43}
+      \strng{fullhash}{8fa40869fce5e84ec5ad510c435f1b43}
+      \strng{authornamehash}{8fa40869fce5e84ec5ad510c435f1b43}
+      \strng{authorfullhash}{8fa40869fce5e84ec5ad510c435f1b43}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{FACT Cherenkov Telescope in a Milky Way Backlight}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.miguelclaro.com/wp/wp-content/uploads/2013/10/FACTMilkyWayVertical-4650-net.jpg
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  25 SEP 2017 11:55
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  25 SEP 2017 15:02
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.124 seconds
+luaotfload | main : initialization completed in 0.119 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -1235,30 +1235,259 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count276
-)) (./build/example.aux
+))
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.st
+y
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+ (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count277
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.st
+y
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.te
+x
+\@xs@message=\write5
+\integerpart=\count278
+\decimalpart=\count279
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count280
+\c@listtotal=\count281
+\c@listcount=\count282
+\c@liststart=\count283
+\c@liststop=\count284
+\c@citecount=\count285
+\c@citetotal=\count286
+\c@multicitecount=\count287
+\c@multicitetotal=\count288
+\c@instcount=\count289
+\c@maxnames=\count290
+\c@minnames=\count291
+\c@maxitems=\count292
+\c@minitems=\count293
+\c@citecounter=\count294
+\c@savedcitecounter=\count295
+\c@uniquelist=\count296
+\c@uniquename=\count297
+\c@refsection=\count298
+\c@refsegment=\count299
+\c@maxextratitle=\count300
+\c@maxextratitleyear=\count301
+\c@maxextrayear=\count302
+\c@maxextraalpha=\count303
+\c@abbrvpenalty=\count304
+\c@highnamepenalty=\count305
+\c@lownamepenalty=\count306
+\c@maxparens=\count307
+\c@parenlevel=\count308
+\blx@tempcnta=\count309
+\blx@tempcntb=\count310
+\blx@tempcntc=\count311
+\blx@maxsection=\count312
+\blx@maxsegment@0=\count313
+\blx@notetype=\count314
+\blx@parenlevel@text=\count315
+\blx@parenlevel@foot=\count316
+\blx@sectionciteorder@0=\count317
+\labelnumberwidth=\skip68
+\labelalphawidth=\skip69
+\biblabelsep=\skip70
+\bibitemsep=\skip71
+\bibnamesep=\skip72
+\bibinitsep=\skip73
+\bibparsep=\skip74
+\bibhang=\skip75
+\blx@bcfin=\read3
+\blx@bcfout=\write6
+\c@mincomprange=\count318
+\c@maxcomprange=\count319
+\c@mincompwidth=\count320
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'verbose.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count321
+\c@savedafterword=\count322
+\c@annotator=\count323
+\c@savedannotator=\count324
+\c@author=\count325
+\c@savedauthor=\count326
+\c@bookauthor=\count327
+\c@savedbookauthor=\count328
+\c@commentator=\count329
+\c@savedcommentator=\count330
+\c@editor=\count331
+\c@savededitor=\count332
+\c@editora=\count333
+\c@savededitora=\count334
+\c@editorb=\count335
+\c@savededitorb=\count336
+\c@editorc=\count337
+\c@savededitorc=\count338
+\c@foreword=\count339
+\c@savedforeword=\count340
+\c@holder=\count341
+\c@savedholder=\count342
+\c@introduction=\count343
+\c@savedintroduction=\count344
+\c@namea=\count345
+\c@savednamea=\count346
+\c@nameb=\count347
+\c@savednameb=\count348
+\c@namec=\count349
+\c@savednamec=\count350
+\c@translator=\count351
+\c@savedtranslator=\count352
+\c@shortauthor=\count353
+\c@savedshortauthor=\count354
+\c@shorteditor=\count355
+\c@savedshorteditor=\count356
+\c@labelname=\count357
+\c@savedlabelname=\count358
+\c@institution=\count359
+\c@savedinstitution=\count360
+\c@lista=\count361
+\c@savedlista=\count362
+\c@listb=\count363
+\c@savedlistb=\count364
+\c@listc=\count365
+\c@savedlistc=\count366
+\c@listd=\count367
+\c@savedlistd=\count368
+\c@liste=\count369
+\c@savedliste=\count370
+\c@listf=\count371
+\c@savedlistf=\count372
+\c@location=\count373
+\c@savedlocation=\count374
+\c@organization=\count375
+\c@savedorganization=\count376
+\c@origlocation=\count377
+\c@savedoriglocation=\count378
+\c@origpublisher=\count379
+\c@savedorigpublisher=\count380
+\c@publisher=\count381
+\c@savedpublisher=\count382
+\c@language=\count383
+\c@savedlanguage=\count384
+\c@pageref=\count385
+\c@savedpageref=\count386
+\shorthandwidth=\skip76
+\shortjournalwidth=\skip77
+\shortserieswidth=\skip78
+\shorttitlewidth=\skip79
+\shortauthorwidth=\skip80
+\shorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/blx-compat.
+def
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.de
+f
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count387
+\c@textcitetotal=\count388
+\c@textcitemaxnames=\count389
+\c@biburlnumpenalty=\count390
+\c@biburlucpenalty=\count391
+\c@biburllcpenalty=\count392
+\c@smartand=\count393
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/numeric
+.bbx
+File: numeric.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standar
+d.bbx
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count394
+\c@bbx:relatedtotal=\count395
+))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/cbx/verbose
+.cbx
+File: verbose.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.cf
+g
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'german'...
+Package biblatex Info: ... file 'german.lbx' found.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/biblatex/lbx/german.
+lbx
+File: german.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count396
+\@quotereset=\count397
+(./build/example.aux
 luatex-hyphen: loading patterns and exceptions for: german (\language4)
 luatex-hyphen: info: no hyphenation exceptions for this language
 Language ngerman already loaded; id is 8)
 \openout1 = example.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1298,16 +1527,16 @@ LaTeX Font Info:    ... okay on input line 43.
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
+\scratchcounter=\count398
 \scratchdimen=\dimen287
 \scratchbox=\box69
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\nofMPsegments=\count399
+\nofMParguments=\count400
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count280
+\MPscratchCnt=\count401
 \MPscratchDim=\dimen288
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPnumerator=\count402
+\makeMPintoPDFobject=\count403
 \everyMPtoPDFconversion=\toks47
 )
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-ba
@@ -1330,7 +1559,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 )) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 53.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1339,11 +1568,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 tring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count404
 )
-LaTeX Info: Redefining \ref on input line 43.
-LaTeX Info: Redefining \pageref on input line 43.
-LaTeX Info: Redefining \nameref on input line 43.
+LaTeX Info: Redefining \ref on input line 53.
+LaTeX Info: Redefining \pageref on input line 53.
+LaTeX Info: Redefining \nameref on input line 53.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/translator/di
 cts/translator-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1371,7 +1600,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 cts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 43.
+LaTeX Info: Redefining \includegraphics on input line 53.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1379,177 +1608,217 @@ LaTeX Info: Redefining \includegraphics on input line 43.
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
-LaTeX Font Info:    Redeclaring math accent \check on input line 43.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 53.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 53.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 53.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 53.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 53.
+LaTeX Font Info:    Redeclaring math accent \check on input line 53.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 53.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 53.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 53.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 43.
+(Font)              `operators' in the math version `normal' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 43.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 53.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 43.
+(Font)              `operators' in the math version `bold' on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 43.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 43.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 43.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 4
+(Font)                  OT1/cmss/m/n --> TU/FiraSansLight(0)/m/n on input line 5
 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 53.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 43.
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 43.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/FiraSansLight(0)/bx/n on input line
- 43.
+ 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 43.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 53.
 
-Language ngerman already loaded; id is 8 (./build/example.nav)
-<logos/tu.pdf, id=13, 355.65945pt x 62.14388pt>
+Language ngerman already loaded; id is 8
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout6 = example.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'example.bbl' found.
+ (./build/example.bbl)
+Package biblatex Info: Reference section=0 on input line 53.
+Package biblatex Info: Reference segment=0 on input line 53.
+
+(./build/example.nav) <logos/tu.pdf, id=13, 355.65945pt x 62.14388pt>
 File: logos/tu.pdf Graphic file (type pdf)
- <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 43.
-(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
 
-<images/tudo-title-2.jpg, id=14, 648.5028pt x 291.9708pt>
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 53.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ <images/tudo-title-2.jpg, id=14, 648.5028pt x 291.9708pt>
 File: images/tudo-title-2.jpg Graphic file (type jpg)
 
 <use images/tudo-title-2.jpg>
-Package luatex.def Info: images/tudo-title-2.jpg used on input line 45.
+Package luatex.def Info: images/tudo-title-2.jpg used on input line 55.
 (luatex.def)             Requested size: 297.66956pt x 134.01414pt.
-(load luc: /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/f
-onts/otl/lmroman12-regular.luc)(load luc: /home/maximilian/.local/texlive/2016/t
-exmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc)(load luc: /home/m
-aximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-
-regular.luc)
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
-(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
-
-(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \vbox (16.65567pt too high) detected at line 45
+Overfull \vbox (18.69568pt too high) detected at line 55
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 45.
+Package luatex.def Info: logos/tu.pdf used on input line 55.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [1{/home/maximilian/.local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdfte
 x.map}
 
-<./logos/tu.pdf><./images/tudo-title-2.jpg>](load luc: /home/maximilian/.local/t
-exlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc)(load l
-uc: /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/ot
-l/lmroman6-regular.luc)(load luc: /home/maximilian/.local/texlive/2016/texmf-var
-/luatex-cache/generic/fonts/otl/lmroman5-regular.luc)
+<./logos/tu.pdf><./images/tudo-title-2.jpg>]
+<./images/sources-detection.jpg, id=28, 160.1985pt x 91.542pt>
+File: ./images/sources-detection.jpg Graphic file (type jpg)
+
+<use ./images/sources-detection.jpg>
+Package luatex.def Info: ./images/sources-detection.jpg used on input line 63.
+(luatex.def)             Requested size: 340.19655pt x 194.41034pt.
+(load luc: /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/f
+onts/otl/lmmono8-regular.luc)(load luc: /home/maximilian/.local/texlive/2016/tex
+mf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc)(load luc: /home/maxi
+milian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-reg
+ular.luc)
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \vbox (15.55453pt too high) detected at line 63
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
- <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 65.
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 63.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [2
 
-] (./build/example.toc
-Language ngerman already loaded; id is 8)
+<./images/sources-detection.jpg>]
+<./images/FACT.jpg, id=39, 260.172pt x 390.258pt>
+File: ./images/FACT.jpg Graphic file (type jpg)
+ <use ./images/FACT.jpg>
+Package luatex.def Info: ./images/FACT.jpg used on input line 80.
+(luatex.def)             Requested size: 114.34502pt x 171.5165pt.
+(load luc: /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/f
+onts/otl/lmroman6-regular.luc)
+<./tikz/FACT/FACT.pdf, id=42, 176.93704pt x 113.76604pt>
+File: ./tikz/FACT/FACT.pdf Graphic file (type pdf)
+
+<use ./tikz/FACT/FACT.pdf>
+Package luatex.def Info: ./tikz/FACT/FACT.pdf used on input line 80.
+(luatex.def)             Requested size: 266.7548pt x 171.5165pt.
+
+Overfull \vbox (13.95068pt too high) detected at line 80
+ []
+
 File: logos/tu.pdf Graphic file (type pdf)
- <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 70.
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 80.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [3
 
-]
+<./images/FACT.jpg><./tikz/FACT/FACT.pdf>]
 File: logos/tu.pdf Graphic file (type pdf)
 
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 83.
+Package luatex.def Info: logos/tu.pdf used on input line 93.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [4
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 90.
+Package luatex.def Info: logos/tu.pdf used on input line 100.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [5
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 96.
+Package luatex.def Info: logos/tu.pdf used on input line 106.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [6
 
 ]
-\tf@nav=\write5
+\tf@nav=\write7
 
-\openout5 = example.nav
-\tf@toc=\write6
+\openout7 = example.nav
+\tf@toc=\write8
 
-\openout6 = example.toc
-\tf@snm=\write7
+\openout8 = example.toc
+\tf@snm=\write9
 
-\openout7 = example.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+\openout9 = example.snm
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
 
 (./build/example.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 107.
+Package logreq Info: Writing requests to 'example.run.xml'.
+
+\openout1 = example.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 31122 strings out of 494577
- 100000,794899 words of node,token memory allocated
- 4034 words of node memory still in use:
-   47 hlist, 14 vlist, 7 rule, 11 disc, 9 local_par, 237 glue, 25 kern, 17 penal
-ty, 66 glyph, 135 attribute, 53 glue_spec, 135 attribute_list, 3 write, 8 pdf_li
-teral, 28 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:1,2:284,3:105,4:120,5:309,6:1543,7:416,8:45,9:169,10:18,11:176
+ 37188 strings out of 494577
+ 100000,1373583 words of node,token memory allocated
+ 4232 words of node memory still in use:
+   47 hlist, 14 vlist, 7 rule, 11 disc, 9 local_par, 258 glue, 25 kern, 17 penal
+ty, 66 glyph, 145 attribute, 54 glue_spec, 145 attribute_list, 3 write, 8 pdf_li
+teral, 1 pdf_action, 28 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_resto
+re nodes
+   avail lists: 1:4,2:292,3:146,4:91,5:311,6:1573,7:322,8:95,9:136,10:18,11:183
+ 39967 multiletter control sequences out of 65536+600000
+ 64 fonts using 10934511 bytes
+ 56i,18n,80p,772b,2900s stack positions out of 5000i,500n,10000p,200000b,100000s
 
- 34020 multiletter control sequences out of 65536+600000
- 77 fonts using 11508575 bytes
- 56i,18n,80p,772b,617s stack positions out of 5000i,500n,10000p,200000b,100000s
+warning  (pdf backend): unreferenced destination with name 'cite.0:t:1:FACT'
 </home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono
-9-regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/pu
-blic/fira/FiraSans-Medium.otf></home/maximilian/.local/texlive/2016/texmf-dist/f
-onts/opentype/public/fira/FiraSans-Light.otf>
-Output written on example.pdf (6 pages, 195021 bytes).
+8-regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/pu
+blic/fira/FiraSans-LightItalic.otf></home/maximilian/.local/texlive/2016/texmf-d
+ist/fonts/opentype/public/fira/FiraSans-Medium.otf></home/maximilian/.local/texl
+ive/2016/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf>
+Output written on example.pdf (6 pages, 1629801 bytes).
 
-PDF statistics: 92 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 131072)
+PDF statistics: 117 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 131072)
  24 words of extra memory for PDF output out of 10000 (max. 10000000)
 

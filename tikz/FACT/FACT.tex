@@ -1,0 +1,22 @@
+\RequirePackage{luatex85}
+\documentclass[border=1pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\input{../tikzstyle.tex}
+
+\tikzstyle{NormalBox} = [normalBox, text width =2.4cm, minimum height=0.9cm]
+\tikzstyle{AlternBox} = [alternBox, text width =2.4cm, minimum height=0.9cm]
+
+\begin{document}
+\begin{tikzpicture}[node distance=1.5cm]
+  \node (LOC) [NormalBox] {Localisation};
+  \node (REF) [NormalBox, below of=LOC] {Reflektor};
+  \node (KAM) [NormalBox, below of=REF] {Kamera};
+
+  \node (Loc) [AlternBox, right of=LOC, xshift=2cm] {Localisation};
+  \node (Ref) [AlternBox, right of=REF, xshift=2cm] {Reflektor};
+  \node (Kam) [AlternBox, right of=KAM, xshift=2cm] {Kamera};
+
+\end{tikzpicture}
+\end{document}

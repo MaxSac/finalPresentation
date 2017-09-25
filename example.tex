@@ -26,16 +26,26 @@
 \usepackage{hyperref}
 \usepackage{bookmark}
 
+% Bibliographie 
+\usepackage[
+   backend=biber,   
+   autolang=hyphen,
+   citestyle=verbose, 
+   giveninits=true,
+]{biblatex}
+\addbibresource{references.bib} 
+\DefineBibliographyStrings{german}{andothers = {{et\,al\adddot}}}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%-------------Hier Titel/Autor/Grafik/Lehrstuhl eintragen--------------%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Titel:
-\title{\LaTeX-Beamer-Theme der TU~Dortmund}
+\title{Gamma/Hadron-Seperation bei FACT}
 %Autor
-\author[M.~Nöthe]{Maximilian Nöthe}
+\author[M.~Sackel]{Maximilian Sackel}
 %Lehrstuhl/Fakultät
-\institute[Experimental Physics 5]{Names des Lehrstuhls \\  Name der Fakultät}
+\institute[Experimental Physics 5]{Experimental Physiks 5b \\  Astroteilchenphysik}
 %Titelgrafik 
 \titlegraphic{\includegraphics[width=0.7\textwidth]{images/tudo-title-2.jpg}}
 
@@ -44,54 +54,54 @@
 
 \maketitle
 
-\begin{frame}{Hinweise}
-  Zu diesem Theme
-  \begin{itemize}
-    \item Zur Installation des Themese muss mindestens die Datei \texttt{beamerthemetudo.sty} und der Ordner \texttt{logos} in einen Ordner verschoben werden, in dem \LaTeX nach Paketen sucht.
-      Dies können sein
-      \begin{itemize}
-        \item \texttt{TEXMFHOME/tex/latex/tudobeamertheme}. Den Wert von \texttt{TEXMFHOME} bekommen sie über \texttt{kpsewhich --var-value TEXMFHOME}, üblicherweise ist dies \texttt{\$HOME/texmf}.
-        \item Der gleiche Ordner in dem Sie ihr Dokument kompilieren
-        \item Ein beliebiger Ordner, der in der Variablen \texttt{TEXINPUTS} enthalten ist.
-      \end{itemize}
-  \end{itemize}
-  Allgemein zu Beamer und Latex:
-  \begin{itemize}
-    \item Umfangreicher \LaTeX-Kurs von PeP et Al. \\
-      \url{http://toolbox.pep-dortmund.org/notes}
-    \item Latex-Beamer Dokumetation:\\
-    \url{http://www.ctan.org/pkg/beamer}
-  \end{itemize}
+\begin{frame}
+  \begin{figure}
+	  \centering
+	  \includegraphics[width=0.8\textwidth]{./images/sources-detection.jpg} \\
+	  \caption{\cite{Overview}}
+	\end{figure}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Einführung}
-    \tableofcontents[pausesections]
+\begin{frame}{First GAP-D Cerenkov Telescope}
+  \begin{columns}
+	\column{.3\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[height=0.8\textheight]{./images/FACT.jpg}
+	  \caption{\cite{FACT}}
+	\end{figure}
+	\column{.7\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[height=0.8\textheight]{./tikz/FACT/FACT.pdf}
+	  \caption{}
+	\end{figure}
+  \end{columns}
 \end{frame}
 
 \section{Blindtext}
 \begin{frame}
-	\frametitle{Hier steht eine lange, zweizeilige Headline
-		\newline gefolgt von einem Blindtext}
-Dieser Text dient nur zur Veranschaulichung des Textsatzes. Niemand sollte jemals, aus keinem noch so gutem Grund, so viel Text auf eine Folie packen.
+  \frametitle{Hier steht eine lange, zweizeilige Headline
+  \newline gefolgt von einem Blindtext}
+  Dieser Text dient nur zur Veranschaulichung des Textsatzes. Niemand sollte jemals, aus keinem noch so gutem Grund, so viel Text auf eine Folie packen.
 
-Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
+  Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
 
-Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
+  Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
 
-Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
+  Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
 \end{frame}
 
 \begin{frame}{title}
   \begin{enumerate}
-    \item test
-    \item test
+	\item test
+	\item test
   \end{enumerate}
 \end{frame}
 
 \begin{frame}{title}
   \begin{block}{title}
-    ANlsnldas dkmadföonslkadm x
+	ANlsnldas dkmadföonslkadm x
   \end{block}
 \end{frame}
 \end{document}
