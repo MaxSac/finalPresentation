@@ -22,6 +22,7 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{cancel}
+\usepackage{siunitx}
 
 \usepackage{hyperref}
 \usepackage{bookmark}
@@ -35,6 +36,9 @@
 ]{biblatex}
 \addbibresource{references.bib} 
 \DefineBibliographyStrings{german}{andothers = {{et\,al\adddot}}}
+
+% Tabellen
+\usepackage{booktabs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%-------------Hier Titel/Autor/Grafik/Lehrstuhl eintragen--------------%%%%%
@@ -54,6 +58,7 @@
 
 \maketitle
 
+\section{Basics}
 \begin{frame}
   \begin{figure}
 	\centering
@@ -164,9 +169,55 @@
 \end{frame}
 
 \begin{frame}
+  \begin{block}{Seperation}<1-2>
 	\begin{figure}
 	  \centering
-	  \includegraphics[width=0.8\textwidth]{./tikz/Missmatch/Missmatch.pdf}
+	  \includegraphics[scale=1]{./tikz/Target/Target.pdf}
+	\end{figure}
+  \end{block}
+  \begin{block}{Simulierte Daten}<2>
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=1]{./tikz/Mismatch/Mismatch.pdf}
+	\end{figure}
+  \end{block}
+\end{frame}
+
+\section{Modelle}
+\begin{frame}{Entscheidungsbaum}
+  \begin{columns}
+	\column{.4\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[width=\textwidth]{./tikz/Tree/Tree.pdf}
+	\end{figure}
+	\column{.6\textwidth}
+	\begin{itemize}
+	  \item Verknüpfte Abfragen 
+	  \item Loss-function
+	  \item Beschränkung der Komplexität 
+	\end{itemize}
+	\begin{table}	  
+	  \centering
+	  \begin{tabular}{c c c c c c}
+		\toprule
+		Event & width & leakage2 & num\_islands & \dots & score \\ 
+		\cmidrule(r){1-1} 	\cmidrule{2-5} \cmidrule(l){6-6}
+		1 & \num{4.2}  & \num{0.4}  & \num{3} & \dots & \num{0.12} \\
+		2 & \num{3.8}  & \num{0.0}  & \num{2} & \dots & \num{0.56} \\
+		3 & \num{15.3} & \num{0.8} 	& \num{1} & \dots & \num{0.08} \\
+		4 & \num{7.7}  & \num{0.1}  & \num{1} & \dots & \num{0.43} \\
+		5 & \num{6.2}  & \num{0.0}  & \num{1} & \dots & \num{0.85} \\
+		\bottomrule
+	  \end{tabular}
+	\end{table}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Random Forest}
+	\begin{figure}
+	  \centering
+	  \includegraphics[width=\textwidth]{./tikz/RandomForest/RandomForest.pdf}
 	\end{figure}
 \end{frame}
 
@@ -194,5 +245,5 @@
   \begin{block}{title}
 	ANlsnldas dkmadföonslkadm x
   \end{block}
-\end{frame}
+ \end{frame}
 \end{document}

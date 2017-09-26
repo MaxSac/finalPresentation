@@ -1,0 +1,21 @@
+\RequirePackage{luatex85}
+\documentclass[border=0pt]{standalone}
+\usepackage{tikz}
+\input{../tikzstyle.tex}
+\begin{document}
+\begin{tikzpicture}
+	\node[inner sep=0pt] (Fifth) at (0.40,-0.40)
+	    {\includegraphics{Trees/Tree3.pdf}};
+	\node[inner sep=0pt] (Forth) at (0.30,-0.30)
+	    {\includegraphics{Trees/Tree1.pdf}};
+	\node[inner sep=0pt] (Third) at (0.20,-0.20)
+	    {\includegraphics{Trees/Tree2.pdf}};
+	\node[inner sep=0pt] (Second) at (0.10,-0.10)
+	    {\includegraphics{Trees/Tree4.pdf}};
+	\node[inner sep=0pt] (First) at (0,0)
+	    {\includegraphics{Trees/Tree5.pdf}};
+	
+	\node[inner sep=0pt] (First) at (-10,0)
+	    {\includegraphics{../Tree/Tree.pdf}};
+\end{tikzpicture}
+\end{document}

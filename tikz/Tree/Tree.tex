@@ -1,0 +1,31 @@
+\RequirePackage{luatex85}
+\documentclass[border=1pt]{standalone}
+\usepackage{tikz}
+\input{../tikzstyle.tex}
+\tikzstyle{AlternBox} = [alternBox, text width =0.7cm]
+\begin{document}
+\begin{tikzpicture}[
+	edge from parent/.style = {thick, draw},
+	level distance = 23mm , level/.style ={sibling distance = 33mm/#1}
+  ]
+  \node[normalBox] {width}
+  child { node[normalBox] {leakage2}
+  	child { node[normalBox] {Hadron}
+		edge from parent node[AlternBox, left] {<\,$x_1$}
+  	}
+  	child { node[normalBox] {Gamma}
+		edge from parent node[AlternBox, right] {$\ge$\,$x_1$}
+ 	}
+	edge from parent node[AlternBox, left] {<\,$x_0$}
+  }
+  child { node[normalBox] {num\_islands}
+  	child { node[normalBox] {Gamma}
+		edge from parent node[AlternBox, left] {<\,$x_2$}
+	}
+	child { node[normalBox] {Hadron}
+		edge from parent node[AlternBox, right] {$\ge$\,$x_2$}
+	}
+	edge from parent node[AlternBox] {$\ge$\,$x_0$}
+};
+\end{tikzpicture}
+\end{document}

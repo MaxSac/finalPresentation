@@ -1,5 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {german}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {1}{Blindtext}{10}{0}{1}
+\beamer@sectionintoc {1}{Basics}{2}{0}{1}
+\beamer@sectionintoc {2}{Modelle}{11}{0}{2}
+\beamer@sectionintoc {3}{Blindtext}{13}{0}{3}

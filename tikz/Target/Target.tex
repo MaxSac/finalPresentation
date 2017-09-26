@@ -1,0 +1,22 @@
+\RequirePackage{luatex85}
+\documentclass[border=1pt]{standalone}
+\usepackage{tikz}
+\usepackage{siunitx}
+\usetikzlibrary{shapes.geometric, arrows}
+
+\input{../tikzstyle.tex}
+
+\tikzstyle{NormalBox} = [normalBox, text width =2.4cm, minimum height=0.9cm]
+\tikzstyle{RoundBox} = [roundBox, text width =1.6cm, minimum height=0.9cm]
+
+\begin{document}
+\begin{tikzpicture}[node distance=1cm]
+  \draw [fill=black!09!white, draw=black, rounded corners] (-1.5,0.7) rectangle (1.5,-1.7);
+  \node (SIG)  [NormalBox] {Signal};
+  \node (UNT)  [NormalBox, below of=SIG] {Untergrund};
+  \node (NSIG) [NormalBox, right of=SIG, xshift=4cm, yshift=-0.5cm] {Signal};
+
+  \draw [normalArrow] (1.5,-0.5) -- node[anchor=south] {Modell} (NSIG);
+
+\end{tikzpicture}
+\end{document}
