@@ -3,4 +3,4 @@
 \select@language {german}
 \beamer@sectionintoc {1}{Basics}{2}{0}{1}
 \beamer@sectionintoc {2}{Modelle}{11}{0}{2}
-\beamer@sectionintoc {3}{Blindtext}{13}{0}{3}
+\beamer@sectionintoc {3}{Blindtext}{18}{0}{3}

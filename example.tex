@@ -201,7 +201,7 @@
 	  \centering
 	  \begin{tabular}{c c c c c c}
 		\toprule
-		Event & width & leakage2 & num\_islands & \dots & score \\ 
+		Ereignis & width & leakage2 & num\_islands & \dots & Konfi. \\ 
 		\cmidrule(r){1-1} 	\cmidrule{2-5} \cmidrule(l){6-6}
 		1 & \num{4.2}  & \num{0.4}  & \num{3} & \dots & \num{0.12} \\
 		2 & \num{3.8}  & \num{0.0}  & \num{2} & \dots & \num{0.56} \\
@@ -215,10 +215,74 @@
 \end{frame}
 
 \begin{frame}{Random Forest}
+  \begin{columns}
+	\column{.5\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[width=\textwidth]{./tikz/RandomForest/RandomForest.pdf}
+	  \includegraphics[scale=1]{./tikz/Tree/Tree.pdf}
 	\end{figure}
+	\column{.5\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=1]{./tikz/RandomForest/RandomForest.pdf}
+	\end{figure}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Random Forest}
+  \begin{columns}
+	\column{.4\textwidth}
+	\begin{table}
+	  \centering
+	  \begin{tabular}{c c}
+		\toprule
+		Ereignis & Konfi. \\
+		\cmidrule(r){1-1} \cmidrule(l){2-2}
+		1 & \num{0.12} \\
+		2 & \num{0.56} \\
+		3 & \num{0.08} \\
+		4 & \num{0.43} \\
+		5 & \num{0.85} \\
+		\bottomrule
+	  \end{tabular}
+	\end{table}
+	\column{.6\textwidth}
+	\begin{table}
+	  \centering
+	  \begin{tabular}{c c c c c c}
+		\toprule
+		Ereignis & Konf$_{1}$ & Konf$_{2}$ & Konf$_{3}$ & \dots & $\Sigma_\text{i}$ Konf$_\text{i}$ \\
+		\cmidrule(r){1-1} \cmidrule(lr){2-5} \cmidrule(l){6-6}
+		1 & \num{0.12} & \num{0.01} & \num{0.08} & \dots & \num{0.06} \\
+		2 & \num{0.40} & \num{0.66} & \num{0.53} & \dots & \num{0.56} \\
+		3 & \num{0.02} & \num{0.17} & \num{0.10} & \dots & \num{0.08} \\
+		4 & \num{0.41} & \num{0.42} & \num{0.42} & \dots & \num{0.43} \\
+		5 & \num{0.96} & \num{0.81} & \num{0.85} & \dots & \num{0.85} \\
+		\bottomrule
+	  \end{tabular}
+	\end{table}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Boosted Trees}
+  \begin{columns}
+	\only<1>{\column{.4\textwidth}
+	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree1.pdf}}
+	\only<2>{\column{.4\textwidth}
+	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree2.pdf}}
+	\only<3>{\column{.4\textwidth}
+	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree3.pdf}}
+	\only<4>{\column{.4\textwidth}
+	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree.pdf}}
+	\column{.6\textwidth}
+	\begin{itemize}
+	  \item additives Training
+	  \item höhere Gewichtung von Fehlklassifizierungen
+	  \item ausgeglicherene Vorhersage
+	  \item lässt sich nicht Parallelisieren
+	  \item Modelle mit geringere Komplexität
+	\end{itemize}
+  \end{columns}
 \end{frame}
 
 \section{Blindtext}

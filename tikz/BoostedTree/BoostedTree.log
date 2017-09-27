@@ -1,7 +1,7 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  27 SEP 2017 09:25
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  27 SEP 2017 12:04
  restricted system commands enabled.
-**RandomForest.tex
-(./RandomForest.tex
+**BoostedTree.tex
+(./BoostedTree.tex
 LaTeX2e <2017/01/01> patch level 3
 Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
 Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.121 seconds
+luaotfload | main : initialization completed in 0.103 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.
@@ -102,8 +102,6 @@ e/2016/texmf-var/luatex-cache/generic/names/luaotfload-names.luc(load luc: /home
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-\sa@box=\box26
-)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/pgf/frontendlayer/ti
 kz.sty
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/pgf/basiclayer/pgf.s
@@ -120,7 +118,7 @@ til-common.tex
 til-common-lists.tex))
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/utilities/pgfu
 til-latex.def
-\pgfutil@abb=\box27
+\pgfutil@abb=\box26
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
@@ -255,7 +253,7 @@ il.code.tex)
 rser.code.tex
 \pgfmath@dimen=\dimen115
 \pgfmath@count=\count97
-\pgfmath@box=\box28
+\pgfmath@box=\box27
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
@@ -315,9 +313,9 @@ File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgf
 corescopes.code.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box29
-\pgf@hbox=\box30
-\pgf@layerbox@main=\box31
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
 \pgf@picture@serial@count=\count99
 )
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgf
@@ -362,7 +360,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgf
 coreexternal.code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box32
+\pgfexternal@startupbox=\box31
 ))
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/basiclayer/pgf
 corelayers.code.tex
@@ -379,7 +377,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmod
 uleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box33
+\pgfnodeparttextbox=\box32
 )
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmod
 uleplot.code.tex
@@ -432,10 +430,10 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@lastysaved=\dimen148
 \tikzleveldistance=\dimen149
 \tikzsiblingdistance=\dimen150
-\tikz@figbox=\box34
-\tikz@figbox@bg=\box35
-\tikz@tempbox=\box36
-\tikz@tempbox@bg=\box37
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
 \tikztreelevel=\count102
 \tikznumberofchildren=\count103
 \tikznumberofcurrentchild=\count104
@@ -453,39 +451,70 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
 tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (../tikzstyle.tex)
-(./RandomForest.aux)
-\openout1 = RandomForest.aux
+)))
+\sa@box=\box37
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read2
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarydecorations.text.code.tex
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarydecorations.code.tex
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/modules/pgfmod
+uledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen151
+\pgfdecoratedremainingdistance=\dimen152
+\pgfdecoratedinputsegmentcompleteddistance=\dimen153
+\pgfdecoratedinputsegmentremainingdistance=\dimen154
+\pgf@decorate@distancetomove=\dimen155
+\pgf@decorate@repeatstate=\count110
+\pgfdecorationsegmentamplitude=\dimen156
+\pgfdecorationsegmentlength=\dimen157
+)
+\tikz@lib@dec@box=\box38
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/deco
+rations/pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box39
+)
+\tikz@lib@dec@te@box=\box40
+) (../tikzstyle.tex)
+(./BoostedTree.aux)
+\openout1 = BoostedTree.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
  ABD: EveryShipout initializing macros
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen151
-\scratchbox=\box38
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen152
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count111
+\scratchdimen=\dimen158
+\scratchbox=\box41
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen159
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks31
 )
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-ba
 se.sty
@@ -517,7 +546,7 @@ Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks30
+\pdftexcmds@toks=\toks32
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 8.
@@ -530,55 +559,31 @@ Package grfext Info: Graphics extension search list:
 -sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
-)) <Trees/Tree3.pdf, id=4, 178.75984pt x 177.7842pt>
-File: Trees/Tree3.pdf Graphic file (type pdf)
+))(load luc: /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic
+/fonts/otl/lmsans10-regular.luc)(load luc: /home/maximilian/.local/texlive/2016/
+texmf-var/luatex-cache/generic/fonts/otl/lmsans12-regular.luc)(load luc: /home/m
+aximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmsans10-
+bold.luc) [1
 
-<use Trees/Tree3.pdf>
-Package luatex.def Info: Trees/Tree3.pdf used on input line 8.
-(luatex.def)             Requested size: 178.75938pt x 177.78374pt.
- <Trees/Tree1.pdf, id=5, 178.75984pt x 177.7842pt>
-File: Trees/Tree1.pdf Graphic file (type pdf)
-
-<use Trees/Tree1.pdf>
-Package luatex.def Info: Trees/Tree1.pdf used on input line 10.
-(luatex.def)             Requested size: 178.75938pt x 177.78374pt.
- <Trees/Tree2.pdf, id=6, 178.75984pt x 177.7842pt>
-File: Trees/Tree2.pdf Graphic file (type pdf)
-
-<use Trees/Tree2.pdf>
-Package luatex.def Info: Trees/Tree2.pdf used on input line 12.
-(luatex.def)             Requested size: 178.75938pt x 177.78374pt.
- <Trees/Tree4.pdf, id=7, 178.75984pt x 177.7842pt>
-File: Trees/Tree4.pdf Graphic file (type pdf)
-
-<use Trees/Tree4.pdf>
-Package luatex.def Info: Trees/Tree4.pdf used on input line 14.
-(luatex.def)             Requested size: 178.75938pt x 177.78374pt.
- <Trees/Tree5.pdf, id=8, 178.75984pt x 177.7842pt>
-File: Trees/Tree5.pdf Graphic file (type pdf)
-
-<use Trees/Tree5.pdf>
-Package luatex.def Info: Trees/Tree5.pdf used on input line 16.
-(luatex.def)             Requested size: 178.75938pt x 177.78374pt.
- [1
-
-<./Trees/Tree3.pdf><./Trees/Tree1.pdf><./Trees/Tree2.pdf><./Trees/Tree4.pdf><./T
-rees/Tree5.pdf>] (./RandomForest.aux))
+{/home/maximilian/.local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.m
+ap}] (./BoostedTree.aux))
 
 Here is how much of LuaTeX's memory you used:
- 12274 strings out of 494577
+ 13160 strings out of 494577
  100000,319454 words of node,token memory allocated
- 2023 words of node memory still in use:
-   62 hlist, 1 vlist, 6 rule, 70 glue, 119 attribute, 40 glue_spec, 119 attribut
-e_list, 1 write, 53 pdf_literal, 4 pdf_colorstack nodes
-   avail lists: 2:26,3:55,4:9,5:12,6:1,7:83,8:6,9:68
- 15818 multiletter control sequences out of 65536+600000
- 15 fonts using 723239 bytes
- 55i,7n,56p,416b,609s stack positions out of 5000i,500n,10000p,200000b,100000s
-Output written on RandomForest.pdf (1 page, 126567 bytes).
+ 371 words of node memory still in use:
+   2 hlist, 1 vlist, 1 rule, 7 glue, 5 attribute, 40 glue_spec, 5 attribute_list
+, 1 write nodes
+   avail lists: 1:1,2:1176,3:610,4:165,5:15,6:71,7:432,8:1,9:352
+ 16698 multiletter control sequences out of 65536+600000
+ 18 fonts using 1118343 bytes
+ 62i,7n,68p,416b,900s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmsans
+10-bold.otf>
+Output written on BoostedTree.pdf (1 page, 6576 bytes).
 
-PDF statistics: 136 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+PDF statistics: 18 PDF objects out of 1000 (max. 8388607)
+ 11 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
