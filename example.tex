@@ -77,10 +77,10 @@
 	\end{figure}
 	\column{.7\textwidth}
 	\only<1>{
-	\Huge
-	\centering
-	\textbf{F}irst G-\textbf{A}PD \textbf{C}herenkov \textbf{T}elescope
-  	}
+	  \Huge
+	  \centering
+	  \textbf{F}irst G-\textbf{A}PD \textbf{C}herenkov \textbf{T}elescope
+	}
 	\only<2>{
 	  \begin{figure}
 		\centering
@@ -146,9 +146,9 @@
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
-		\item berechne Feature (Hillas Parameter) des Kamerabildes
-		\item Feature werden zum Klassifizieren benoetigt
-		\item Vorzeichen des Schauers nicht eindeutig
+	  \item berechne Feature (Hillas Parameter) des Kamerabildes
+	  \item Feature werden zum Klassifizieren benoetigt
+	  \item Vorzeichen des Schauers nicht eindeutig
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -162,8 +162,8 @@
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
-		\item FACT nimmt keine OFF-Daten
-		\item Daten werden im Wobble Modus genommen
+	  \item FACT nimmt keine OFF-Daten
+	  \item Daten werden im Wobble Modus genommen
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -266,14 +266,11 @@
 
 \begin{frame}{Boosted Trees}
   \begin{columns}
-	\only<1>{\column{.4\textwidth}
-	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree1.pdf}}
-	\only<2>{\column{.4\textwidth}
-	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree2.pdf}}
-	\only<3>{\column{.4\textwidth}
-	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree3.pdf}}
-	\only<4>{\column{.4\textwidth}
-	\includegraphics[width=\textwidth]{./tikz/BoostedTree/BoostedTree.pdf}}
+	\column{.4\textwidth}
+	\includegraphics<1>[width=\textwidth]{./tikz/BoostedTree/BoostedTree1.pdf}
+	\includegraphics<2>[width=\textwidth]{./tikz/BoostedTree/BoostedTree2.pdf}
+	\includegraphics<3>[width=\textwidth]{./tikz/BoostedTree/BoostedTree3.pdf}
+	\includegraphics<4>[width=\textwidth]{./tikz/BoostedTree/BoostedTree.pdf}
 	\column{.6\textwidth}
 	\begin{itemize}
 	  \item additives Training
@@ -283,6 +280,89 @@
 	  \item Modelle mit geringere Komplexität
 	\end{itemize}
   \end{columns}
+\end{frame}
+
+\section{Ueberblick}
+\begin{frame}
+  \begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{./tikz/Motiv/Motiv.pdf}
+  \end{figure}
+\end{frame}
+
+\section{???}
+\begin{frame}{Erstellen Trainingsdatensatzes}
+  \begin{columns}
+	\column{.5\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics<1>[width=\textwidth]{./Plots/roc_info.pdf}
+	  \includegraphics[width=\textwidth]<2>{./Plots/theta_cut.pdf}
+	\end{figure}
+	\column{.5\textwidth}
+	Bereiningen der gemessen Daten von Gamma-Ereignissen 
+	\begin{itemize}
+	  \item ohne Eingang der Monte-Carlo Mismatche
+	  \item moeglichst Reinen Datensatz
+	  \item paar diffuse Gamma lassen sich physikalisch motivieren
+	\end{itemize}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Ueberpruefen Trainingsdatensatzes}
+  \begin{columns}
+	\column{.5\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[width=\textwidth]{./Plots/corr_sig_theta2.pdf}
+	\end{figure}
+	\column{.5\textwidth}
+	Trainingsdatensatz aus simulierte Gamma- und Proton-Ereignissen
+	\begin{itemize}
+	  \item Detektoreigenschaften fuer große $\theta$ signifikant
+	  \item Signifikanz abhaengig vom $\theta$-Schnitt
+	  \item \theta-Schnitt in Abhaengigkeit der Reinheit und korrelation der Signifikanz
+	\end{itemize}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Optimieren der Modelle}
+  \begin{columns}
+	\column{.5\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=0.6]{./Plots/parameter_crab.pdf}
+	\end{figure}
+	\column{.5\textwidth}
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=0.6]{./Plots/parameter_monte.pdf}
+	\end{figure}
+  \end{columns}
+  \begin{table}[H]
+	\centering
+	\begin{tabular}{l s s}
+	  \toprule
+	  & MC-Daten & Messdaten \\
+	  \cmidrule(r){2-3}
+	  \texttt{XGBoost Classifier}	(Tiefe 1)	& \num{0.86(2)}	&\num{0.869(5)} \\ 
+	  \texttt{Random Forrest}					& \num{0.87(1)} & \num{0.89(1)} \\
+	  \bottomrule
+	\end{tabular}
+  \end{table}
+\end{frame}
+
+\section{Validieren auf echten Daten}
+\begin{frame}
+  \begin{block}{Seperation}
+	\begin{equation*}
+	S\left( N_\text{on}, N_\text{off}, S \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
+	\end{equation*}
+  \end{block}
+  \begin{figure}
+	\centering
+	\includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
+  \end{figure}
 \end{frame}
 
 \section{Blindtext}
@@ -309,5 +389,5 @@
   \begin{block}{title}
 	ANlsnldas dkmadföonslkadm x
   \end{block}
- \end{frame}
+\end{frame}
 \end{document}

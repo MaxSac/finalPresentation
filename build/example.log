@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  27 SEP 2017 12:19
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  29 SEP 2017 12:12
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.103 seconds
+luaotfload | main : initialization completed in 0.105 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -2118,11 +2118,11 @@ File: ./tikz/BoostedTree/BoostedTree1.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree1.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree1.pdf used on input line 
-286.
+283.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 286.
+Package luatex.def Info: logos/tu.pdf used on input line 283.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [14
 
@@ -2132,11 +2132,11 @@ File: ./tikz/BoostedTree/BoostedTree2.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree2.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree2.pdf used on input line 
-286.
+283.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 286.
+Package luatex.def Info: logos/tu.pdf used on input line 283.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [15
 
@@ -2146,11 +2146,11 @@ File: ./tikz/BoostedTree/BoostedTree3.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree3.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree3.pdf used on input line 
-286.
+283.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 286.
+Package luatex.def Info: logos/tu.pdf used on input line 283.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [16
 
@@ -2160,35 +2160,124 @@ File: ./tikz/BoostedTree/BoostedTree.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree.pdf used on input line 2
-86.
+83.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 286.
+Package luatex.def Info: logos/tu.pdf used on input line 283.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [17
 
 <./tikz/BoostedTree/BoostedTree.pdf>]
+<./tikz/Motiv/Motiv.pdf, id=487, 388.6219pt x 138.97319pt>
+File: ./tikz/Motiv/Motiv.pdf Graphic file (type pdf)
+
+<use ./tikz/Motiv/Motiv.pdf>
+Package luatex.def Info: ./tikz/Motiv/Motiv.pdf used on input line 291.
+(luatex.def)             Requested size: 425.24408pt x 152.08pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 299.
+Package luatex.def Info: logos/tu.pdf used on input line 291.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [18
 
-]
+<./tikz/Motiv/Motiv.pdf>]
+<./Plots/roc_info.pdf, id=512, 189.92557pt x 150.49504pt>
+File: ./Plots/roc_info.pdf Graphic file (type pdf)
+
+<use ./Plots/roc_info.pdf>
+Package luatex.def Info: ./Plots/roc_info.pdf used on input line 310.
+(luatex.def)             Requested size: 212.62204pt x 168.48209pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 306.
+Package luatex.def Info: logos/tu.pdf used on input line 310.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [19
+
+<./Plots/roc_info.pdf>]
+<./Plots/theta_cut.pdf, id=563, 383.031pt x 285.46649pt>
+File: ./Plots/theta_cut.pdf Graphic file (type pdf)
+
+<use ./Plots/theta_cut.pdf>
+Package luatex.def Info: ./Plots/theta_cut.pdf used on input line 310.
+(luatex.def)             Requested size: 212.62204pt x 158.46625pt.
+File: logos/tu.pdf Graphic file (type pdf)
+ <use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 310.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [20
+
+<./Plots/theta_cut.pdf>]
+<./Plots/corr_sig_theta2.pdf, id=615, 383.031pt x 285.46649pt>
+File: ./Plots/corr_sig_theta2.pdf Graphic file (type pdf)
+
+<use ./Plots/corr_sig_theta2.pdf>
+Package luatex.def Info: ./Plots/corr_sig_theta2.pdf used on input line 327.
+(luatex.def)             Requested size: 212.62204pt x 158.46625pt.
+File: logos/tu.pdf Graphic file (type pdf)
+ <use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 327.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [21
+
+<./Plots/corr_sig_theta2.pdf>] <./Plots/parameter_crab.pdf, id=669, 245.02057pt
+ x 181.76497pt>
+File: ./Plots/parameter_crab.pdf Graphic file (type pdf)
+
+<use ./Plots/parameter_crab.pdf>
+Package luatex.def Info: ./Plots/parameter_crab.pdf used on input line 353.
+(luatex.def)             Requested size: 147.01346pt x 109.05981pt.
+
+<./Plots/parameter_monte.pdf, id=670, 245.02057pt x 181.76497pt>
+File: ./Plots/parameter_monte.pdf Graphic file (type pdf)
+
+<use ./Plots/parameter_monte.pdf>
+Package luatex.def Info: ./Plots/parameter_monte.pdf used on input line 353.
+(luatex.def)             Requested size: 147.01346pt x 109.05981pt.
+File: logos/tu.pdf Graphic file (type pdf)
+ <use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 353.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [22
+
+<./Plots/parameter_crab.pdf><./Plots/parameter_monte.pdf>]
+<./Plots/on_off_ratio.pdf, id=777, 317.98799pt x 236.68425pt>
+File: ./Plots/on_off_ratio.pdf Graphic file (type pdf)
+
+<use ./Plots/on_off_ratio.pdf>
+Package luatex.def Info: ./Plots/on_off_ratio.pdf used on input line 366.
+(luatex.def)             Requested size: 201.63383pt x 150.0757pt.
+
+Overfull \vbox (12.93686pt too high) detected at line 366
+ []
+
+File: logos/tu.pdf Graphic file (type pdf)
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 366.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [23
+
+<./Plots/on_off_ratio.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+ <use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 379.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [24
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
 
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 312.
+Package luatex.def Info: logos/tu.pdf used on input line 386.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [20
+ [25
+
+]
+File: logos/tu.pdf Graphic file (type pdf)
+ <use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 392.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [26
 
 ]
 \tf@nav=\write7
@@ -2200,49 +2289,53 @@ Package luatex.def Info: logos/tu.pdf used on input line 312.
 \tf@snm=\write9
 
 \openout9 = example.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
  (./build/example.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 313.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 393.
 Package logreq Info: Writing requests to 'example.run.xml'.
 
 \openout1 = example.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 39708 strings out of 494577
+ 39851 strings out of 494577
  100000,1373583 words of node,token memory allocated
- 8855 words of node memory still in use:
-   47 hlist, 14 vlist, 7 rule, 11 disc, 9 local_par, 777 glue, 25 kern, 17 penal
-ty, 66 glyph, 383 attribute, 58 glue_spec, 383 attribute_list, 3 write, 8 pdf_li
+ 10585 words of node memory still in use:
+   47 hlist, 14 vlist, 7 rule, 11 disc, 9 local_par, 979 glue, 25 kern, 17 penal
+ty, 66 glyph, 462 attribute, 58 glue_spec, 462 attribute_list, 3 write, 8 pdf_li
 teral, 4 pdf_action, 28 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_resto
 re nodes
-   avail lists: 1:5,2:610,3:275,4:118,5:319,6:1653,7:744,8:95,9:392,10:18,11:201
-
- 42220 multiletter control sequences out of 65536+600000
+   avail lists: 1:5,2:456,3:278,4:119,5:313,6:1548,7:542,8:106,9:392,10:18,11:17
+6
+ 42270 multiletter control sequences out of 65536+600000
  70 fonts using 12613551 bytes
  56i,18n,80p,772b,2900s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'cite.0:t:1:FACT'
-</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono
-8-regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/pu
-blic/fira/FiraSans-LightItalic.otf></home/maximilian/.local/texlive/2016/texmf-d
-ist/fonts/opentype/public/fira/FiraSans-Medium.otf></home/maximilian/.local/texl
-ive/2016/texmf-dist/fonts/opentype/public/fira/FiraSans-Light.otf></home/maximil
-ian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></ho
-me/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-9.pfb></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr9.pfb></home/maximilian/.local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy5.pfb></home/maximilian/.local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/maximilian/.local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on example.pdf (20 pages, 4158791 bytes).
+</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroma
+n9-regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/p
+ublic/lm/lmmono9-regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fo
+nts/opentype/public/lm/lmmono8-regular.otf></home/maximilian/.local/texlive/2016
+/texmf-dist/fonts/opentype/public/fira/FiraSans-LightItalic.otf></home/maximilia
+n/.local/texlive/2016/texmf-dist/fonts/opentype/public/fira/FiraSans-Medium.otf>
+</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/fira/Fira
+Sans-Light.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cmextra/cmex9.pfb></home/maximilian/.local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi6.pfb></home/maximilian/.local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></home/maximilian/.local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></home/maximilian/.lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></home/maxim
+ilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></
+home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy6.pfb></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy9.pfb>
+Output written on example.pdf (26 pages, 4269819 bytes).
 
-PDF statistics: 572 PDF objects out of 1000 (max. 8388607)
- 416 compressed objects within 5 object streams
- 46 named destinations out of 1000 (max. 131072)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 946 PDF objects out of 1000 (max. 8388607)
+ 586 compressed objects within 6 object streams
+ 61 named destinations out of 1000 (max. 131072)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
