@@ -3,12 +3,12 @@
 \usepackage{tikz}
 %\usetikzlibrary{shapes.geometric, arrows}
 
-\begin{document}
 \input{../tikzstyle.tex}
 
 \tikzstyle{NormalBox} = [normalBox, text width =2.4cm, minimum height=1cm]
 \tikzstyle{AlternBox} = [alternBox, text width =2.4cm, minimum height=1cm]
 
+\begin{document}
 \begin{tikzpicture}[node distance=3.5cm]
   \node (RAW)  [NormalBox] {Daten der Quelle};
   \node (CLAS) [NormalBox, right of=RAW] {Klassifizierer};

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  1 OCT 2017 12:41
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  1 OCT 2017 20:19
  restricted system commands enabled.
 **Conf.tex
 (./Conf.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.102 seconds
+luaotfload | main : initialization completed in 0.101 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.
@@ -453,24 +453,24 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
 tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-No file Conf.aux.
-
+))) (../tikzstyle.tex) (./Conf.aux)
 \openout1 = Conf.aux
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
 ABD: EveryShipout initializing macros
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf
 .mkii
@@ -530,7 +530,7 @@ Package grfext Info: Graphics extension search list:
 -sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
-)) (../tikzstyle.tex)
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -541,20 +541,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ap}] (./Conf.aux))
 
 Here is how much of LuaTeX's memory you used:
- 12262 strings out of 494577
+ 12267 strings out of 494577
  100000,319454 words of node,token memory allocated
- 4949 words of node memory still in use:
-   72 hlist, 7 vlist, 1 rule, 6 disc, 6 local_par, 2 math, 162 glue, 5 kern, 11 
-penalty, 108 glyph, 338 attribute, 40 glue_spec, 338 attribute_list, 1 write, 21
+ 4878 words of node memory still in use:
+   72 hlist, 7 vlist, 1 rule, 6 disc, 6 local_par, 2 math, 153 glue, 5 kern, 11 
+penalty, 108 glyph, 336 attribute, 40 glue_spec, 336 attribute_list, 1 write, 21
 3 pdf_literal, 4 pdf_colorstack nodes
-   avail lists: 2:26,3:226,4:9,5:16,6:115,7:177,8:1,9:84,10:2,11:6
+   avail lists: 2:26,3:226,4:9,5:16,6:115,7:168,8:1,9:84,10:2,11:6
  15830 multiletter control sequences out of 65536+600000
  25 fonts using 1344807 bytes
- 55i,7n,56p,384b,680s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 55i,7n,56p,384b,628s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmroma
 n10-regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmmi10.pfb>
-Output written on Conf.pdf (1 page, 13797 bytes).
+Output written on Conf.pdf (1 page, 13799 bytes).
 
 PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
