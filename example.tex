@@ -353,42 +353,142 @@
 \end{frame}
 
 \section{Validieren auf echten Daten}
+
 \begin{frame}
-  \begin{block}{Seperation}
-	\begin{equation*}
-	S\left( N_\text{on}, N_\text{off}, S \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
-	\end{equation*}
-  \end{block}
-  \begin{figure}
-	\centering
-	\includegraphics[height=0.7\textheight]<1>{./Plots/on_off_ratio.pdf}
-	\includegraphics[height=0.7\textheight]<2>{./Plots/on_off_ratio.pdf}
-  \end{figure}
+  \only<1-2>{
+	\begin{figure}
+	  \includegraphics[width=\textwidth]{./tikz/Conf/Conf.pdf}
+	\end{figure}
+  }
+  \only<2-2>{
+	\begin{block}{Signifikanz}
+	  \begin{equation*}
+		S\left( N_\text{on}, N_\text{off}, S \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
+	  \end{equation*}
+	\end{block}
+  }
 \end{frame}
 
-\section{Blindtext}
 \begin{frame}
-  \frametitle{Hier steht eine lange, zweizeilige Headline
-  \newline gefolgt von einem Blindtext}
-  Dieser Text dient nur zur Veranschaulichung des Textsatzes. Niemand sollte jemals, aus keinem noch so gutem Grund, so viel Text auf eine Folie packen.
-
-  Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
-
-  Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
-
-  Dies ist ein Blindtext. Dieser Text ist nicht dafür vorgesehen, den Betrachter in die Welt der Dunkelheit zu führen, sondern dafür, einfach etwas Leeres mit etwas Inhaltlosem zu füllen.
+  \only<1-2>{
+	\begin{figure}
+	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	\end{figure}
+  }
+  \only<2-2>{
+	\begin{figure}
+	  \centering
+	  \includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
+	\end{figure}
+  }
 \end{frame}
 
-\begin{frame}{title}
-  \begin{enumerate}
-	\item test
-	\item test
-  \end{enumerate}
+\begin{frame}
+  \only<1-2>{
+	\begin{figure}
+	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	\end{figure}
+  }
+  \only<2-2>{
+	\begin{columns}
+	  \column{.5\textwidth}
+	  \Large \bf Random Forest
+	  \begin{itemize}
+		\item komplexität
+		\item viele Spezialisten auf ihrem Gebiet
+		\item anfällig auf Training von Mismatche
+	  \end{itemize}
+	  \column{.5\textwidth}
+	  \Large \bf XGBoost Classifier
+	  \begin{itemize}
+		\item geringe Komplexität
+		\item resistent gegen Mismatche
+	  \end{itemize}
+	\end{columns}
+  }
 \end{frame}
 
-\begin{frame}{title}
-  \begin{block}{title}
-	ANlsnldas dkmadföonslkadm x
-  \end{block}
+\begin{frame}
+  \only<1-2>{
+	\begin{figure}
+	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	\end{figure}
+  }
+  \only<2-2>{
+	\begin{figure}
+	  \centering
+	  \includegraphics[width=0.5\textwidth]{Plots/conf.pdf}
+	\end{figure}
+  }
 \end{frame}
+
+\begin{frame}
+  \only<1-2>{
+	\begin{figure}
+	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	\end{figure}
+  }
+  \only<2-2>{
+	\begin{figure}
+	  \centering
+	  \includegraphics[height=0.8\textheight]{./Plots/significance_monte.pdf}
+	\end{figure}
+  }
+\end{frame}
+
+\begin{frame}
+  \only<1-2>{
+	\begin{figure}
+	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	\end{figure}
+  }
+  \only<2-2>{
+	\begin{table}
+	  \begin{tabular}{l s s s s}
+		\toprule 
+		& \multicolumn{2}{c}{Krebsnebel}    & \multicolumn{2}{c}{Markarian 501} \\
+		\cmidrule(r){2-3} \cmidrule(l){4-5}
+		& Random & XGBoost        & Random & XGBoost   \\
+		& Forest & (Tiefe= 1)   & Forest & (Tiefe= 1)\\
+		unklassifizierte Daten & \multicolumn{2}{c}{\SI{21.4}{\sigma}}  & \multicolumn{2}{c}{\SI{17.1}{\sigma}} \\
+		MC-Proton              & \SI{41.9}{\sigma}  & \SI{41.3}{\sigma} & \SI{35.5}{\sigma} & \SI{35.6}{\sigma}\\
+		gemessene Proton       & \SI{32.9}{\sigma}  & \SI{37.8}{\sigma} & \SI{23.6}{\sigma} & \SI{35.2}{\sigma}\\
+		\bottomrule
+	  \end{tabular}
+	\end{table}
+  }
+\end{frame}
+
+\section{Mögliche Ursachen}
+
+\begin{frame}{Thesen}
+  \begin{itemize}
+	\item<1-> Training auf Montecarlo Mismatches zur Seperation
+	  \begin{itemize}
+		\item komplexere Modelle weisen niedrigere Signifikanzen als einfachere Modelle auf.
+	  \end{itemize}
+	\item<2> Reduzierung schlecht simulierte Attribute
+	  \begin{itemize}
+		\item erhöhung der Signifikanz durch Reduzierung von Mismatches
+	  \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \begin{columns}
+	\column{.5\textwidth}
+	\Large \bf Random Forest
+	\begin{figure}
+	  \centering
+	  \includegraphics[width=\textwidth]{./Plots/sig_mess_tree.pdf}
+	\end{figure}
+	\column{.5\textwidth}
+	\Large \bf XGBoost Classifier
+	\begin{figure}
+	  \centering
+	  \includegraphics[width=\textwidth]{./Plots/sig_mess_xgbc.pdf}
+	\end{figure}
+  \end{columns}
+\end{frame}
+
 \end{document}

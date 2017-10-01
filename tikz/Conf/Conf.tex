@@ -1,0 +1,27 @@
+\RequirePackage{luatex85}
+\documentclass[border=1pt]{standalone}
+\usepackage{tikz}
+%\usetikzlibrary{shapes.geometric, arrows}
+
+\begin{document}
+\input{../tikzstyle.tex}
+
+\tikzstyle{NormalBox} = [normalBox, text width =2.4cm, minimum height=1cm]
+\tikzstyle{AlternBox} = [alternBox, text width =2.4cm, minimum height=1cm]
+
+\begin{tikzpicture}[node distance=3.5cm]
+  \node (RAW)  [NormalBox] {Daten der Quelle};
+  \node (CLAS) [NormalBox, right of=RAW] {Klassifizierer};
+  \node (PRED) [NormalBox, right of=CLAS, xshift=0.5cm] {Klassifiziertes Gamma-Ereignis};
+  \node (RGAM) [AlternBox, right of=PRED, yshift=1cm] {wahres Gamma (TP)};
+  \node (RPRO) [AlternBox, right of=PRED, yshift=-1cm] {wahres Proton (FP)};
+  \node (SIGM) [NormalBox, right of=RGAM, yshift=-1cm] {$\sigma$(Konf.)};
+
+  \draw [normalArrow] (RAW) -- (CLAS);
+  \draw [normalArrow] (CLAS) -- node[anchor=south] {Konf.} (PRED);
+  \draw [normalArrow] (PRED) -- (RGAM);
+  \draw [normalArrow] (PRED) -- (RPRO);
+  \draw [normalArrow] (RGAM) -- (SIGM);
+  \draw [normalArrow] (RPRO) -- (SIGM);
+\end{tikzpicture}
+\end{document}

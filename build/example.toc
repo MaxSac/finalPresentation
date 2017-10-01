@@ -6,4 +6,4 @@
 \beamer@sectionintoc {3}{Ueberblick}{18}{0}{3}
 \beamer@sectionintoc {4}{???}{19}{0}{4}
 \beamer@sectionintoc {5}{Validieren auf echten Daten}{23}{0}{5}
-\beamer@sectionintoc {6}{Blindtext}{24}{0}{6}
+\beamer@sectionintoc {6}{Mögliche Ursachen}{35}{0}{6}
