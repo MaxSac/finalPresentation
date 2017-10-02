@@ -284,7 +284,6 @@
     <bcf:option datatype="string">citereset</bcf:option>
     <bcf:option datatype="string">backrefstyle</bcf:option>
     <bcf:option datatype="string">arxiv</bcf:option>
-    <bcf:option datatype="string">citepages</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -2151,11 +2150,5 @@
     <bcf:citekey order="5">FACT</bcf:citekey>
     <bcf:citekey order="6">FACT</bcf:citekey>
     <bcf:citekey order="7">FACT</bcf:citekey>
-    <bcf:citekey order="8">FACT</bcf:citekey>
-    <bcf:citekey order="9">FACT</bcf:citekey>
-    <bcf:citekey order="10">FACT</bcf:citekey>
-    <bcf:citekey order="11">FACT</bcf:citekey>
-    <bcf:citekey order="12">FACT</bcf:citekey>
-    <bcf:citekey order="13">FACT</bcf:citekey>
   </bcf:section>
 </bcf:controlfile>
