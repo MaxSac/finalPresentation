@@ -16,7 +16,7 @@
   \node (UNT)  [NormalBox, below of=SIG] {Untergrund};
   \node (NSIG) [NormalBox, right of=SIG, xshift=4cm, yshift=-0.5cm] {Signal};
 
-  \draw [normalArrow] (1.5,-0.5) -- node[anchor=south] {Modell} (NSIG);
+  \draw [normalArrow, shorten <=.1cm,  shorten >=.1cm] (1.5,-0.5) -- node[anchor=south] {Modell} (NSIG);
 
 \end{tikzpicture}
 \end{document}

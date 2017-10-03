@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  3 OCT 2017 15:03
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  3 OCT 2017 15:59
  restricted system commands enabled.
 **Conf.tex
 (./Conf.tex
@@ -453,7 +453,29 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
 tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-))) (../tikzstyle.tex
+)))
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/shap
+es/pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+))
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/
+tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgfl
+ibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen151
+)) (../tikzstyle.tex
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks28
@@ -578,12 +600,12 @@ Package: expl3 2017/03/18 v7019 L3 programming layer (code)
 \l__iow_line_target_int=\count118
 \l__iow_one_indent_int=\count119
 \l__iow_indent_int=\count120
-\c_zero_dim=\dimen151
-\c_max_dim=\dimen152
-\l_tmpa_dim=\dimen153
-\l_tmpb_dim=\dimen154
-\g_tmpa_dim=\dimen155
-\g_tmpb_dim=\dimen156
+\c_zero_dim=\dimen152
+\c_max_dim=\dimen153
+\l_tmpa_dim=\dimen154
+\l_tmpb_dim=\dimen155
+\g_tmpa_dim=\dimen156
+\g_tmpb_dim=\dimen157
 \c_zero_skip=\skip43
 \c_max_skip=\skip44
 \l_tmpa_skip=\skip45
@@ -626,13 +648,13 @@ Package: expl3 2017/03/18 v7019 L3 programming layer (code)
 \g_tmpa_box=\box41
 \g_tmpb_box=\box42
 \l__coffin_internal_box=\box43
-\l__coffin_internal_dim=\dimen157
-\l__coffin_offset_x_dim=\dimen158
-\l__coffin_offset_y_dim=\dimen159
-\l__coffin_x_dim=\dimen160
-\l__coffin_y_dim=\dimen161
-\l__coffin_x_prime_dim=\dimen162
-\l__coffin_y_prime_dim=\dimen163
+\l__coffin_internal_dim=\dimen158
+\l__coffin_offset_x_dim=\dimen159
+\l__coffin_offset_y_dim=\dimen160
+\l__coffin_x_dim=\dimen161
+\l__coffin_y_dim=\dimen162
+\l__coffin_x_prime_dim=\dimen163
+\l__coffin_y_prime_dim=\dimen164
 \c_empty_coffin=\box44
 \l__coffin_aligned_coffin=\box45
 \l__coffin_aligned_internal_coffin=\box46
@@ -641,25 +663,25 @@ Package: expl3 2017/03/18 v7019 L3 programming layer (code)
 \l__coffin_display_coffin=\box49
 \l__coffin_display_coord_coffin=\box50
 \l__coffin_display_pole_coffin=\box51
-\l__coffin_display_offset_dim=\dimen164
-\l__coffin_display_x_dim=\dimen165
-\l__coffin_display_y_dim=\dimen166
-\l__box_top_dim=\dimen167
-\l__box_bottom_dim=\dimen168
-\l__box_left_dim=\dimen169
-\l__box_right_dim=\dimen170
-\l__box_top_new_dim=\dimen171
-\l__box_bottom_new_dim=\dimen172
-\l__box_left_new_dim=\dimen173
-\l__box_right_new_dim=\dimen174
+\l__coffin_display_offset_dim=\dimen165
+\l__coffin_display_x_dim=\dimen166
+\l__coffin_display_y_dim=\dimen167
+\l__box_top_dim=\dimen168
+\l__box_bottom_dim=\dimen169
+\l__box_left_dim=\dimen170
+\l__box_right_dim=\dimen171
+\l__box_top_new_dim=\dimen172
+\l__box_bottom_new_dim=\dimen173
+\l__box_left_new_dim=\dimen174
+\l__box_right_new_dim=\dimen175
 \l__box_internal_box=\box52
-\l__coffin_bounding_shift_dim=\dimen175
-\l__coffin_left_corner_dim=\dimen176
-\l__coffin_right_corner_dim=\dimen177
-\l__coffin_bottom_corner_dim=\dimen178
-\l__coffin_top_corner_dim=\dimen179
-\l__coffin_scaled_total_height_dim=\dimen180
-\l__coffin_scaled_width_dim=\dimen181
+\l__coffin_bounding_shift_dim=\dimen176
+\l__coffin_left_corner_dim=\dimen177
+\l__coffin_right_corner_dim=\dimen178
+\l__coffin_bottom_corner_dim=\dimen179
+\l__coffin_top_corner_dim=\dimen180
+\l__coffin_scaled_total_height_dim=\dimen181
+\l__coffin_scaled_width_dim=\dimen182
 )
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/l3kernel/l3pdfmode.d
 ef
@@ -690,9 +712,9 @@ X
 \l__fontspec_emdef_int=\count156
 \l__fontspec_strong_int=\count157
 \l__fontspec_strongdef_int=\count158
-\l__fontspec_tmpa_dim=\dimen182
-\l__fontspec_tmpb_dim=\dimen183
-\l__fontspec_tmpc_dim=\dimen184
+\l__fontspec_tmpa_dim=\dimen183
+\l__fontspec_tmpb_dim=\dimen184
+\l__fontspec_tmpc_dim=\dimen185
 \g__file_internal_ior=\read2
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
@@ -1366,13 +1388,13 @@ ABD: EveryShipout initializing macros
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count160
-\scratchdimen=\dimen185
+\scratchdimen=\dimen186
 \scratchbox=\box54
 \nofMPsegments=\count161
 \nofMParguments=\count162
 \everyMPshowfont=\toks30
 \MPscratchCnt=\count163
-\MPscratchDim=\dimen186
+\MPscratchDim=\dimen187
 \MPnumerator=\count164
 \makeMPintoPDFobject=\count165
 \everyMPtoPDFconversion=\toks31
@@ -1487,33 +1509,29 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 19.
 
+[1
 
-! Package pgf Error: Unknown arrow tip kind 'triangle 90, line width=4mm, posta
-ction={draw, line width=1cm, shorten >=1cm}'.
-
-See the pgf package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27   \draw [printerArrow]
-                          (RPRO) -- (RPRO)+(0,10);
-? x
-
+{/home/maximilian/.local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.m
+ap}] (./Conf.aux))
 
 Here is how much of LuaTeX's memory you used:
- 22330 strings out of 494577
- 100000,552014 words of node,token memory allocated 4913 words of node memory still in use:
-   67 hlist, 6 vlist, 1 rule, 6 disc, 6 local_par, 4 dir, 2 math, 146 glue, 28 k
-ern, 11 penalty, 108 glyph, 328 attribute, 46 glue_spec, 328 attribute_list, 3 t
-emp, 8 if_stack, 1 write, 210 pdf_literal, 2 pdf_colorstack nodes
-   avail lists: 1:1,2:5,3:1,4:3,5:6,8:1,10:2
- 25189 multiletter control sequences out of 65536+600000
+ 23460 strings out of 494577
+ 100000,662416 words of node,token memory allocated
+ 5207 words of node memory still in use:
+   73 hlist, 7 vlist, 1 rule, 6 disc, 6 local_par, 2 math, 161 glue, 28 kern, 11
+ penalty, 108 glyph, 358 attribute, 44 glue_spec, 358 attribute_list, 1 write, 2
+24 pdf_literal, 6 pdf_colorstack nodes
+   avail lists: 2:26,3:237,4:11,5:39,6:115,7:176,8:1,9:84,10:2,11:6
+ 26279 multiletter control sequences out of 65536+600000
  53 fonts using 11955999 bytes
- 55i,7n,87p,384b,631s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 55i,7n,87p,431b,631s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/fira/Fira
+Sans-Regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb>
+Output written on Conf.pdf (1 page, 13030 bytes).
 
-warning  (pdf backend): no pages of output.
-
-PDF statistics: 3 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 22 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

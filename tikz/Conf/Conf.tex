@@ -1,13 +1,13 @@
 \RequirePackage{luatex85}
 \documentclass[border=1pt]{standalone}
 \usepackage{tikz}
-%\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{calc, shapes.geometric, arrows}
 
 \input{../tikzstyle.tex}
 
 \tikzstyle{NormalBox} = [normalBox, text width =2.4cm, minimum height=1cm]
 \tikzstyle{AlternBox} = [alternBox, text width =2.4cm, minimum height=1cm]
-\tikzstyle{printerArrow} = [arrows={-triangle 90, line width=4mm, postaction={draw, line width=1cm, shorten >=1cm}}]
+\tikzstyle{printerArrow} = [-latex, thin, line width=1.8mm, tugreen]
 
 \begin{document}
 \begin{tikzpicture}[node distance=3.5cm]
@@ -24,7 +24,7 @@
   \draw [normalArrow] (PRED) -- (RPRO);
   \draw [normalArrow] (RGAM) -- (SIGM);
   \draw [normalArrow] (RPRO) -- (SIGM);
-  \draw [printerArrow] (RPRO) -- (RPRO)+(0,10);
+  \draw [printerArrow] ($(SIGM)+(0,-1.5)$) -- ($(SIGM)+(0,-.7)$);
 
 \end{tikzpicture}
 \end{document}

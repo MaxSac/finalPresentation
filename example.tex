@@ -4,17 +4,8 @@
 \usefonttheme[onlymath]{serif}
 \usetheme[showtotalframes]{tudo}
 
-\ifluatex
 \usepackage{polyglossia}
 \setmainlanguage{german}
-\else
-\ifxetex
-\usepackage{polyglossia}
-\setmainlanguage{german}
-\else
-\usepackage[german]{babel}
-\fi
-\fi
 
 
 % Mathematik
@@ -38,16 +29,17 @@
 % Tabellen
 \usepackage{booktabs}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%-------------Hier Titel/Autor/Grafik/Lehrstuhl eintragen--------------%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Titel:
-\title{Gamma/Hadron-Separation bei FACT}
+\title{Gamma/Hadron-Separation mit gemessenen OFF-Daten bei FACT}
 %Autor
 \author[M.~Sackel]{Maximilian Sackel}
 %Lehrstuhl/Fakultät
-\institute[Experimental Physics 5]{Experimental Physiks 5b \\  Astroteilchenphysik}
+\institute[Experimental Physics 5b]{Experimental Physiks 5b \\  Astroteilchenphysik}
 %Titelgrafik 
 \titlegraphic{\includegraphics[width=0.7\textwidth]{images/tudo-title-2.jpg}}
 
@@ -181,6 +173,22 @@
 	\end{figure}
   \end{block}
 \end{frame}
+
+\begin{frame}
+	\begin{figure}
+	  \centering
+	  \includegraphics[scale=1]<1>{./tikz/TrainingData/TrainingData1.pdf}
+	  \includegraphics[scale=1]<2->{./tikz/TrainingData/TrainingData.pdf}
+	\end{figure}
+	\begin{itemize}
+	  \item<1-> Prozesierte Monte-Carlo-Simulationen mit CORSIKA
+	  \item<4-> gemessene Protonen sollten den echten Verteilungen folgen
+		\begin{itemize}
+		  \item<4-> Verbesserung der Seperation
+		\end{itemize}
+	  \item<5-> Proton-Simulation kann eingestellt werden
+	\end{itemize}
+  \end{frame}
 
 \section{Modelle}
 \begin{frame}{Entscheidungsbaum}
@@ -354,12 +362,12 @@
 \section{Validieren auf echten Daten}
 
 \begin{frame}
-  \only<1-2>{
+  \onslide<1-2>{
 	\begin{figure}
 	  \includegraphics[width=\textwidth]{./tikz/Conf/Conf.pdf}
 	\end{figure}
   }
-  \only<2-2>{
+  \onslide<2-2>{
 	\begin{block}{Signifikanz}
 	  \begin{equation*}
 		S\left( N_\text{on}, N_\text{off}, S \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
@@ -369,26 +377,26 @@
 \end{frame}
 
 \begin{frame}
-  \only<1-2>{
-	\begin{figure}
-	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
-	\end{figure}
-  }
-  \only<2-2>{
-	\begin{figure}
-	  \centering
-	  \includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
-	\end{figure}
-  }
+  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
+	  \begin{figure}
+		\includegraphics[scale=0.5]{./tikz/Conf/Conf1.pdf}
+	  \end{figure}
+  \end{minipage}
+  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
+	  \begin{figure}
+		\centering
+		\includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
+	  \end{figure}
+  \end{minipage}
 \end{frame}
 
 \begin{frame}
-  \only<1-2>{
+  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
 	\begin{figure}
-	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	  \includegraphics[scale=0.5]{./tikz/Conf/Conf2.pdf}
 	\end{figure}
-  }
-  \only<2-2>{
+  \end{minipage}
+  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
 	\begin{columns}[onlytextwidth]
 	  \column{.5\textwidth}
 	  \Large \bf Random Forest
@@ -404,44 +412,44 @@
 		\item resistent gegen Mismatche
 	  \end{itemize}
 	\end{columns}
-  }
+  \end{minipage}
 \end{frame}
 
 \begin{frame}
-  \only<1-2>{
+  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
 	\begin{figure}
-	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	  \includegraphics[scale=0.5]{./tikz/Conf/Conf3.pdf}
 	\end{figure}
-  }
-  \only<2-2>{
+  \end{minipage}
+  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[width=0.5\textwidth]{Plots/conf.pdf}
+	  \includegraphics[height=0.6\textheight]{Plots/conf.pdf}
 	\end{figure}
-  }
+  \end{minipage}
 \end{frame}
 
 \begin{frame}
-  \only<1-2>{
+  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
 	\begin{figure}
-	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	  \includegraphics[scale=0.5]{./tikz/Conf/Conf4.pdf}
 	\end{figure}
-  }
-  \only<2-2>{
+  \end{minipage}
+  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[height=0.8\textheight]{./Plots/significance_monte.pdf}
+	  \includegraphics[height=0.6\textheight]{./Plots/significance_monte.pdf}
 	\end{figure}
-  }
+  \end{minipage}
 \end{frame}
 
 \begin{frame}
-  \only<1-2>{
+  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
 	\begin{figure}
-	  \includegraphics[width=0.5\textwidth]{./tikz/Conf/Conf.pdf}
+	  \includegraphics[scale=0.5]{./tikz/Conf/Conf4.pdf}
 	\end{figure}
-  }
-  \only<2-2>{
+  \end{minipage}
+  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
 	\begin{table}
 	  \begin{tabular}{l s s s s}
 		\toprule 
@@ -455,7 +463,7 @@
 		\bottomrule
 	  \end{tabular}
 	\end{table}
-  }
+  \end{minipage}
 \end{frame}
 
 \section{Mögliche Ursachen}
