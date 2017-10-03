@@ -21,10 +21,11 @@
 % Bibliographie 
 \usepackage[
   backend=biber,   
-  citestyle=numeric, 
+  autolang=hyphen, 
 ]{biblatex}
 \addbibresource{references.bib} 
 \DefineBibliographyStrings{german}{andothers = {{et\,al\adddot}}}
+
 
 % Tabellen
 \usepackage{booktabs}
@@ -86,7 +87,6 @@
 	\begin{figure}
 	  \centering
 	  \includegraphics[width=\textwidth]{./images/photon_100GeV.png}
-	  \cite{FACT}
 	\end{figure}
 	\column{.3\textwidth}
 	\begin{eqnarray*}
@@ -98,7 +98,7 @@
 	\begin{figure}
 	  \centering
 	  \includegraphics[width=\textwidth]{./images/proton_100GeV.png}
-	  \cite{FACT}
+	  \cite{corsika}
 	\end{figure}
 	\column{.3\textwidth}
 	\begin{eqnarray*}
@@ -132,7 +132,7 @@
 	\column{.5\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[height=0.8\textheight]{./images/camera.pdf}
+	  \includegraphics[height=0.8\textheight]{./tikz/Camera/Camera.pdf}
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
@@ -148,7 +148,7 @@
 	\column{.5\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[height=0.8\textheight]{./images/wobble.pdf}
+	  \includegraphics[height=0.8\textheight]{./tikz/Wobble/Wobble.pdf}
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
@@ -159,22 +159,26 @@
 \end{frame}
 
 \begin{frame}
-  \begin{block}{Separation}<1-3>
+  \uncover<1-3>{
+  \begin{block}{Separation}
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=0.7]{./tikz/Target/Target.pdf}
 	\end{figure}
   \end{block}
-  \begin{block}{Überwachtes Lernen}<2-3>
+}
+\uncover<2-3>{
+  \begin{block}{Überwachtes Lernen}
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=0.7]<2>{./tikz/Supervised/Supervised.pdf}
 	  \includegraphics[scale=0.7]<3>{./tikz/Supervised/Supervised2.pdf}
 	\end{figure}
   \end{block}
+}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Trainingsdaten}
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=1]<1>{./tikz/TrainingData/TrainingData1.pdf}
@@ -182,11 +186,11 @@
 	\end{figure}
 	\begin{itemize}
 	  \item<1-> Prozesierte Monte-Carlo-Simulationen mit CORSIKA
-	  \item<4-> gemessene Protonen sollten den echten Verteilungen folgen
+	  \item<3-> gemessene Protonen sollten den echten Verteilungen folgen
 		\begin{itemize}
-		  \item<4-> Verbesserung der Seperation
+		  \item<3-> Verbesserung der Seperation
 		\end{itemize}
-	  \item<5-> Proton-Simulation kann eingestellt werden
+	  \item<4-> Proton-Simulation kann eingestellt werden
 	\end{itemize}
   \end{frame}
 
@@ -316,7 +320,7 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}{Ueberpruefen Trainingsdatensatzes}
+\begin{frame}{Überprüfen Trainingsdatensatzes}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
 	\begin{figure}
@@ -336,11 +340,13 @@
 \begin{frame}{Optimieren der Modelle}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
+	\Large \bf Monte-Carlo Protonen
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=0.6]{./Plots/parameter_crab.pdf}
 	\end{figure}
 	\column{.5\textwidth}
+	\Large \bf Gemessener Untergrund
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=0.6]{./Plots/parameter_monte.pdf}
@@ -361,19 +367,12 @@
 
 \section{Validieren auf echten Daten}
 
-\begin{frame}
-  \onslide<1-2>{
-	\begin{figure}
-	  \includegraphics[width=\textwidth]{./tikz/Conf/Conf.pdf}
-	\end{figure}
-  }
-  \onslide<2-2>{
-	\begin{block}{Signifikanz}
+\begin{frame}{Validieren auf echten Daten}
+	\begin{block}{Li und Ma Signifikanz}
 	  \begin{equation*}
-		S\left( N_\text{on}, N_\text{off}, S \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
+		S\left( N_\text{on}, N_\text{off}, \alpha \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
 	  \end{equation*}
 	\end{block}
-  }
 \end{frame}
 
 \begin{frame}
@@ -482,11 +481,6 @@
 \end{frame}
 
 \begin{frame}
-  \Large \bf Achtung:
-  \begin{itemize}
-	\item Konfidenzverteilung nicht direkt vergleichbar
-	\item Beide Bäume nach derselbem Kriterium gebaut
-  \end{itemize}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
 	\Large \bf Random Forest
@@ -501,6 +495,10 @@
 	  \includegraphics[width=0.8\textwidth]{./Plots/sig_mess_xgbc.pdf}
 	\end{figure}
   \end{columns}
+  \begin{itemize}
+	\item Konfidenzverteilung nicht direkt vergleichbar
+	\item Beide Bäume nach derselbem Kriterium gebaut
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Rekursive Feature Elimination}
@@ -535,4 +533,8 @@
   \end{itemize}
 \end{frame}
 
+\section{Quellen}
+\begin{frame}
+  \printbibliography
+\end{frame}
 \end{document}

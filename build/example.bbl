@@ -53,6 +53,32 @@
       \verb http://www.miguelclaro.com/wp/wp-content/uploads/2013/10/FACTMilkyWayVertical-4650-net.jpg
       \endverb
     \endentry
+    \entry{corsika}{online}{}
+      \name{author}{1}{}{%
+        {{hash=90cf806c60a0f6ee733bc817133c3960}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Leeds}%
+      }
+      \strng{namehash}{90cf806c60a0f6ee733bc817133c3960}
+      \strng{fullhash}{90cf806c60a0f6ee733bc817133c3960}
+      \strng{authornamehash}{90cf806c60a0f6ee733bc817133c3960}
+      \strng{authorfullhash}{90cf806c60a0f6ee733bc817133c3960}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CORSIKA – an Air Shower Simulation Program}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb http://www.ikp.kit.edu/corsika/
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput

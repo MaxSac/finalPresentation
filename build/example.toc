@@ -2,9 +2,10 @@
 \defcounter {refsection}{0}\relax 
 \select@language {german}
 \beamer@sectionintoc {1}{Basics}{2}{0}{1}
-\beamer@sectionintoc {2}{Modelle}{17}{0}{2}
-\beamer@sectionintoc {3}{Ueberblick}{24}{0}{3}
-\beamer@sectionintoc {4}{???}{25}{0}{4}
-\beamer@sectionintoc {5}{Validieren auf echten Daten}{29}{0}{5}
-\beamer@sectionintoc {6}{Mögliche Ursachen}{36}{0}{6}
-\beamer@sectionintoc {7}{Resüme}{41}{0}{7}
+\beamer@sectionintoc {2}{Modelle}{16}{0}{2}
+\beamer@sectionintoc {3}{Ueberblick}{23}{0}{3}
+\beamer@sectionintoc {4}{???}{24}{0}{4}
+\beamer@sectionintoc {5}{Validieren auf echten Daten}{28}{0}{5}
+\beamer@sectionintoc {6}{Mögliche Ursachen}{34}{0}{6}
+\beamer@sectionintoc {7}{Resüme}{39}{0}{7}
+\beamer@sectionintoc {8}{Quellen}{43}{0}{8}

@@ -11,13 +11,13 @@
 %%%%%%%%%%%%%%%%%%%%                 Boxes                  %%%%%%%%%%%%%%%%%%%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \tikzstyle{normalBox} = [shape=rectangle, draw=black, text=black, thick, 	
-	align=center, fill=white]
+align=center, fill=white]
 
 \tikzstyle{roundBox} = [shape=circle, draw=black, text=black, thick, 	
-	align=center, fill=white]
+align=center, fill=white]
 
 \tikzstyle{alternBox} = [shape=rectangle, text=white, thick, align=center, 
-	fill=black, rounded corners]
+fill=black, rounded corners]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26,6 +26,20 @@
 
 \tikzstyle{normalArrow} = [thick,->,>=stealth, draw=black]
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%                 Schrift                %%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[sfdefault]{FiraSans}
+
+% Enable Unicode-Math and follow the ISO-Standards for typesetting math
+\usepackage[ 
+   math-style=ISO, 
+   bold-style=ISO, 
+   sans-style=italic, 
+   nabla=upright, 
+   partial=upright, 
+]{unicode-math} 
+\setmathfont{Latin Modern Math} 
+
