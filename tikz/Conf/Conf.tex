@@ -7,6 +7,7 @@
 
 \tikzstyle{NormalBox} = [normalBox, text width =2.4cm, minimum height=1cm]
 \tikzstyle{AlternBox} = [alternBox, text width =2.4cm, minimum height=1cm]
+\tikzstyle{printerArrow} = [arrows={-triangle 90, line width=4mm, postaction={draw, line width=1cm, shorten >=1cm}}]
 
 \begin{document}
 \begin{tikzpicture}[node distance=3.5cm]
@@ -23,5 +24,7 @@
   \draw [normalArrow] (PRED) -- (RPRO);
   \draw [normalArrow] (RGAM) -- (SIGM);
   \draw [normalArrow] (RPRO) -- (SIGM);
+  \draw [printerArrow] (RPRO) -- (RPRO)+(0,10);
+
 \end{tikzpicture}
 \end{document}
