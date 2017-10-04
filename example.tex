@@ -115,7 +115,6 @@
 	\begin{figure}
 	  \centering
 	  \includegraphics[height=0.8\textheight]{./images/Gamma.pdf}
-	  \cite{FACT}
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{figure}
@@ -136,8 +135,8 @@
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
-	  \item berechne Feature (Hillas Parameter) des Kamerabildes
-	  \item Feature werden zum Klassifizieren benoetigt
+	  \item berechne Bild Parameter (Hillas Parameter) des Kamerabildes
+	  \item Bild Parameter werden zum klassifizieren benötigt
 	  \item Vorzeichen des Schauers nicht eindeutig
 	\end{itemize}
   \end{columns}
@@ -153,13 +152,13 @@
 	\column{.5\textwidth}
 	\begin{itemize}
 	  \item FACT nimmt keine OFF-Daten
-	  \item Daten werden im Wobble Modus genommen
+	  \item Daten werden im Wobblemodus aufgenommen
 	\end{itemize}
   \end{columns}
 \end{frame}
 
 \begin{frame}
-  \uncover<1-3>{
+  \onslide<1-3>{
   \begin{block}{Separation}
 	\begin{figure}
 	  \centering
@@ -167,7 +166,7 @@
 	\end{figure}
   \end{block}
 }
-\uncover<2-3>{
+\onslide<2-3>{
   \begin{block}{Überwachtes Lernen}
 	\begin{figure}
 	  \centering
@@ -185,10 +184,10 @@
 	  \includegraphics[scale=1]<2->{./tikz/TrainingData/TrainingData.pdf}
 	\end{figure}
 	\begin{itemize}
-	  \item<1-> Prozesierte Monte-Carlo-Simulationen mit CORSIKA
+	  \item<1-> Prozesierte Monte Carlo-Simulationen mit CORSIKA
 	  \item<3-> gemessene Protonen sollten den echten Verteilungen folgen
 		\begin{itemize}
-		  \item<3-> Verbesserung der Seperation
+		  \item<3-> Verbesserung der Separation
 		\end{itemize}
 	  \item<4-> Proton-Simulation kann eingestellt werden
 	\end{itemize}
@@ -287,7 +286,7 @@
 	  \item additives Training
 	  \item höhere Gewichtung von Fehlklassifizierungen
 	  \item ausgeglicherene Vorhersage
-	  \item lässt sich nicht Parallelisieren
+	  \item lässt sich nicht parallelisieren
 	  \item Modelle mit geringere Komplexität
 	\end{itemize}
   \end{columns}
@@ -313,14 +312,15 @@
 	\column{.5\textwidth}
 	Bereiningen der gemessen Daten von Gamma-Ereignissen 
 	\begin{itemize}
-	  \item ohne Eingang der Monte-Carlo Mismatche
-	  \item moeglichst Reinen Datensatz
+	  \item ohne Eingang der Daten-Monte Carlo-Mismatch
+	  \item möglichst reinen Datensatz
 	  \item paar diffuse Gamma lassen sich physikalisch motivieren
 	\end{itemize}
   \end{columns}
 \end{frame}
 
 \begin{frame}{Überprüfen Trainingsdatensatzes}
+  Signifikanzen eines für unterschiedliche $\theta$-Schnitten trainierte Modelle anhand von simulierte Gamma- sowie Proton-Ereignissen
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
 	\begin{figure}
@@ -328,11 +328,10 @@
 	  \includegraphics[width=\textwidth]{./Plots/corr_sig_theta2.pdf}
 	\end{figure}
 	\column{.5\textwidth}
-	Trainingsdatensatz aus simulierte Gamma- und Proton-Ereignissen
 	\begin{itemize}
-	  \item Detektoreigenschaften fuer große $\theta$ signifikant
-	  \item Signifikanz abhaengig vom $\theta$-Schnitt
-	  \item \theta-Schnitt in Abhaengigkeit der Reinheit und korrelation der Signifikanz
+	  \item Detektoreigenschaften für große $\theta$ nicht zu vernachlässigen
+%	  \item Signifikanz abhaengig vom $\theta$-Schnitt
+	  \item \theta-Schnitt in Abhängigkeit der Reinheit und korrelation der Signifikanz
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -340,13 +339,13 @@
 \begin{frame}{Optimieren der Modelle}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
-	\Large \bf Monte-Carlo Protonen
+	\Large \bf Gemessener Untergrund
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=0.6]{./Plots/parameter_crab.pdf}
 	\end{figure}
 	\column{.5\textwidth}
-	\Large \bf Gemessener Untergrund
+	\Large \bf Monte Carlo Protonen
 	\begin{figure}
 	  \centering
 	  \includegraphics[scale=0.6]{./Plots/parameter_monte.pdf}
@@ -402,13 +401,13 @@
 	  \begin{itemize}
 		\item komplexität
 		\item viele Spezialisten auf ihrem Gebiet
-		\item anfällig auf Training von Mismatche
+		\item anfällig auf Training von Mismatchs
 	  \end{itemize}
 	  \column{.5\textwidth}
 	  \Large \bf XGBoost Classifier (Tiefe 1)
 	  \begin{itemize}
 		\item geringe Komplexität
-		\item resistent gegen Mismatche
+		\item resistent gegen Mismatchs
 	  \end{itemize}
 	\end{columns}
   \end{minipage}
@@ -469,13 +468,13 @@
 
 \begin{frame}{Thesen}
   \begin{itemize}
-	\item<1-> Training auf Montecarlo Mismatches zur Separation
+	\item<1-> Training auf Montecarlo Mismatchs zur Separation
 	  \begin{itemize}
 		\item komplexere Modelle weisen niedrigere Signifikanzen als einfachere Modelle auf.
 	  \end{itemize}
 	\item<2> Reduzierung schlecht simulierte Attribute
 	  \begin{itemize}
-		\item erhöhung der Signifikanz durch Reduzierung von Mismatches
+		\item erhöhung der Signifikanz durch Reduzierung von Mismatchs
 	  \end{itemize}
   \end{itemize}
 \end{frame}
@@ -526,10 +525,10 @@
 \section{Resüme}
 \begin{frame}
   \begin{itemize}
-	\item<1-> Unter den dieszeitigen Monte-Carlo-Simulationen wird die Simulation nicht verbessert 
-	\item<2-> Verbesserung der Monte-Carlo-Simulationen 
+	\item<1-> Unter den dieszeitigen Monte Carlo-Simulationen wird die Simulation nicht verbessert 
+	\item<2-> Verbesserung der Monte Carlo-Simulationen 
 	\item<3-> Datennahme von OFF-Daten
-	\item<4-> Modell welches resistenter gegen Mismatches ist
+	\item<4-> Modell welches resistenter gegen Mismatchs ist
   \end{itemize}
 \end{frame}
 
