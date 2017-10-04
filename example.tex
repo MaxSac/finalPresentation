@@ -48,6 +48,9 @@
 \begin{document}
 
 \maketitle
+\begin{frame}
+  \the \textwidth
+\end{frame}
 
 \section{Basics}
 \begin{frame}
@@ -307,7 +310,7 @@
 	\begin{figure}
 	  \centering
 	  \includegraphics<1>[width=\textwidth]{./Plots/roc_info.pdf}
-	  \includegraphics[width=\textwidth]<2>{./Plots/theta_cut.pdf}
+	  \includegraphics[height=0.9\textheight]<2>{./Plots/theta_cut.pdf}
 	\end{figure}
 	\column{.5\textwidth}
 	Bereiningen der gemessen Daten von Gamma-Ereignissen 
@@ -375,12 +378,12 @@
 \end{frame}
 
 \begin{frame}
-  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.25\textheight][t]{\textwidth}
 	  \begin{figure}
 		\includegraphics[scale=0.5]{./tikz/Conf/Conf1.pdf}
 	  \end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
 	  \begin{figure}
 		\centering
 		\includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
@@ -389,12 +392,12 @@
 \end{frame}
 
 \begin{frame}
-  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.25\textheight][t]{\textwidth}
 	\begin{figure}
 	  \includegraphics[scale=0.5]{./tikz/Conf/Conf2.pdf}
 	\end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
 	\begin{columns}[onlytextwidth]
 	  \column{.5\textwidth}
 	  \Large \bf Random Forest
@@ -414,40 +417,40 @@
 \end{frame}
 
 \begin{frame}
-  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.25\textheight][t]{\textwidth}
 	\begin{figure}
 	  \includegraphics[scale=0.5]{./tikz/Conf/Conf3.pdf}
 	\end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[height=0.6\textheight]{Plots/conf.pdf}
+	  \includegraphics[height=0.7\textheight]{Plots/conf.pdf}
 	\end{figure}
   \end{minipage}
 \end{frame}
 
 \begin{frame}
-  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.25\textheight][t]{\textwidth}
 	\begin{figure}
 	  \includegraphics[scale=0.5]{./tikz/Conf/Conf4.pdf}
 	\end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
 	\begin{figure}
 	  \centering
-	  \includegraphics[height=0.6\textheight]{./Plots/significance_monte.pdf}
+	  \includegraphics[height=0.7\textheight]{./Plots/maxSignificance.pdf}
 	\end{figure}
   \end{minipage}
 \end{frame}
 
 \begin{frame}
-  \begin{minipage}[t][0.3\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.25\textheight][t]{\textwidth}
 	\begin{figure}
 	  \includegraphics[scale=0.5]{./tikz/Conf/Conf4.pdf}
 	\end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.7\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
 	\begin{table}
 	  \begin{tabular}{l s s s s}
 		\toprule 
@@ -468,13 +471,13 @@
 
 \begin{frame}{Thesen}
   \begin{itemize}
-	\item<1-> Training auf Montecarlo Mismatchs zur Separation
+	\item<1-> Modelle nutzen die Daten-Monte Carlo-Mismatchs als zusätzliche Information
 	  \begin{itemize}
-		\item komplexere Modelle weisen niedrigere Signifikanzen als einfachere Modelle auf.
+		\item klassifizierte Datensätze weisen bei komplexere Modelle weisen niedrigere Signifikanzen auf
 	  \end{itemize}
 	\item<2> Reduzierung schlecht simulierte Attribute
 	  \begin{itemize}
-		\item erhöhung der Signifikanz durch Reduzierung von Mismatchs
+		\item Erhöhung der Signifikanz durch Reduzierung von Mismatchs
 	  \end{itemize}
   \end{itemize}
 \end{frame}
@@ -503,7 +506,7 @@
 \begin{frame}{Rekursive Feature Elimination}
   \begin{figure}
 	\centering
-	\includegraphics[height=0.8\textheight]{./Plots/feature_elemination.pdf}
+	\includegraphics[height=0.9\textheight]{./Plots/feature_elemination.pdf}
   \end{figure}
 \end{frame}
 
