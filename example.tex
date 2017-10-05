@@ -135,7 +135,7 @@
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
-	  \item berechne Bild Parameter (Hillas Parameter) des Kamerabildes
+	  \item berechne Bildparameter (Hillas Parameter) des Kamerabildes
 	  \item Bild Parameter werden zum klassifizieren benötigt
 	  \item Vorzeichen des Schauers nicht eindeutig
 	\end{itemize}
@@ -184,7 +184,7 @@
 	  \includegraphics[scale=1]<2->{./tikz/TrainingData/TrainingData.pdf}
 	\end{figure}
 	\begin{itemize}
-	  \item<1-> Prozesierte Monte Carlo-Simulationen mit CORSIKA
+	  \item<1-> Prozessierte Monte Carlo-Simulationen mit CORSIKA
 	  \item<3-> gemessener Untergrund folgt der wahren Verteilungen
 		\begin{itemize}
 		  \item<3-> Verbesserung der Separation
@@ -211,7 +211,7 @@
 	  \centering
 	  \begin{tabular}{c c c c c c}
 		\toprule
-		Ereignis & width & leakage2 & num\_islands & \dots & Konfi. \\ 
+		Ereignis & \texttt{width} & \texttt{leakage2} & \texttt{num\_islands} & \dots & Konfi. \\ 
 		\cmidrule(r){1-1} 	\cmidrule{2-5} \cmidrule(l){6-6}
 		1 & \num{4.2}  & \num{0.4}  & \num{3} & \dots & \num{0.12} \\
 		2 & \num{3.8}  & \num{0.0}  & \num{2} & \dots & \num{0.56} \\
@@ -285,14 +285,14 @@
 	\begin{itemize}
 	  \item additives Training
 	  \item höhere Gewichtung von Fehlklassifizierungen
-	  \item ausgeglicherene Vorhersage
+	  \item ausgeglichenere Vorhersage
 	  \item lässt sich nicht parallelisieren
 	  \item Modelle mit geringere Komplexität
 	\end{itemize}
   \end{columns}
 \end{frame}
 
-\section{Ueberblick}
+\section{Überblick}
 \begin{frame}
   \begin{figure}
 	\centering
@@ -310,10 +310,10 @@
 	  \includegraphics[height=0.9\textheight]<2>{./Plots/theta_cut.pdf}
 	\end{figure}
 	\column{.5\textwidth}
-	Bereiningen der gemessen Daten von Gamma-Ereignissen 
+	Bereinigen der gemessen Daten von Gamma-Ereignissen 
 	\begin{itemize}
-	  \item ohne Eingang der Daten-Monte Carlo-Mismatch
-	  \item möglichst reinen Datensatz
+	  \item ohne Eingang des Daten-Monte Carlo-Mismatches
+	  \item möglichst reiner Datensatz
 	  \item paar diffuse Gamma lassen sich physikalisch motivieren
 	\end{itemize}
   \end{columns}
@@ -331,7 +331,7 @@
 	\begin{itemize}
 	  \item Detektoreigenschaften für große $\theta$ nicht zu vernachlässigen
 %	  \item Signifikanz abhaengig vom $\theta$-Schnitt
-	  \item \theta-Schnitt in Abhängigkeit der Reinheit und korrelation der Signifikanz
+	  \item \theta-Schnitt in Abhängigkeit der Reinheit und Korrelation der Signifikanz
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -348,7 +348,7 @@
 	  \end{figure}
 	  \vspace{0.3cm}
 	  \column{.5\textwidth}
-	  \Large \bf Monte Carlo Protonen
+	  \Large \bf Monte Carlo-Protonen
 	  \vspace{0.4cm}
 	  \begin{figure}
 		\centering
@@ -425,13 +425,13 @@
 	  \begin{itemize}
 		\item Komplexität
 		\item viele Spezialisten auf ihrem Gebiet
-		\item anfällig auf Training von Mismatchs
+		\item anfällig auf Training von Mismatches
 	  \end{itemize}
 	  \column{.5\textwidth}
 	  \Large \bf XGBoost Classifier (Tiefe 1)
 	  \begin{itemize}
 		\item geringe Komplexität
-		\item resistent gegen Mismatchs
+		\item resistent gegen Mismatches
 	  \end{itemize}
 	\end{columns}
   \end{minipage}
@@ -492,13 +492,13 @@
 
 \begin{frame}{Thesen}
   \begin{itemize}
-	\item<1-> Modelle nutzen die Daten-Monte Carlo-Mismatchs als zusätzliche Information
+	\item<1-> Modelle nutzen die Daten-Monte Carlo-Mismatches als zusätzliche Information
 	  \begin{itemize}
 		\item klassifizierte Datensätze weisen bei komplexere Modelle niedrigere Signifikanzen auf
 	  \end{itemize}
 	\item<2> Reduzierung schlecht simulierte Attribute
 	  \begin{itemize}
-		\item Erhöhung der Signifikanz durch Reduzierung von Mismatchs
+		\item Erhöhung der Signifikanz durch Reduzierung von Mismatches
 	  \end{itemize}
   \end{itemize}
 \end{frame}
@@ -546,7 +546,7 @@
   \end{table}
   \vspace{1cm}
   \begin{itemize}
-	\item ROC-AUC-Wert: Seperation zwischen Monte-Carlo und gemessenen Untergrund
+	\item ROC-AUC-Wert: Separation zwischen Monte-Carlo und gemessenen Untergrund
 	\item Signifikanz des Datensatz vor und nach dem Entfernen der Attribute
   \end{itemize}
 \end{frame}
@@ -554,10 +554,10 @@
 \section{Resüme}
 \begin{frame}
   \begin{itemize}
-	\item<1-> Unter den dieszeitigen Monte Carlo-Simulationen wird die Simulation nicht verbessert 
+	\item<1-> Unter den dies zeitigen Monte Carlo-Simulationen wird die Simulation nicht verbessert 
 	\item<2-> Verbesserung der Monte Carlo-Simulationen 
 	\item<3-> Datennahme von OFF-Daten
-	\item<4-> Modell welches resistenter gegen Mismatchs ist
+	\item<4-> Modell welches resistenter gegen Mismatches ist
   \end{itemize}
 \end{frame}
 

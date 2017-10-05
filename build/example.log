@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  5 OCT 2017 11:37
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  5 OCT 2017 13:04
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.101 seconds
+luaotfload | main : initialization completed in 0.109 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -1945,12 +1945,12 @@ File: ./images/FACT.jpg Graphic file (type jpg)
 Package luatex.def Info: ./images/FACT.jpg used on input line 82.
 (luatex.def)             Requested size: 114.34502pt x 171.5165pt.
 
-<./tikz/FACT/FACT.pdf, id=50, 191.1632pt x 114.71457pt>
+<./tikz/FACT/FACT.pdf, id=50, 191.1632pt x 120.56442pt>
 File: ./tikz/FACT/FACT.pdf Graphic file (type pdf)
 
 <use ./tikz/FACT/FACT.pdf>
 Package luatex.def Info: ./tikz/FACT/FACT.pdf used on input line 82.
-(luatex.def)             Requested size: 285.84566pt x 171.5165pt.
+(luatex.def)             Requested size: 271.95241pt x 171.5165pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
 Package luatex.def Info: logos/tu.pdf used on input line 82.
@@ -2152,7 +2152,7 @@ File: ./tikz/Tree/Tree.pdf Graphic file (type pdf)
 Package luatex.def Info: ./tikz/Tree/Tree.pdf used on input line 240.
 (luatex.def)             Requested size: 183.78618pt x 148.118pt.
 
-<./tikz/RandomForest/RandomForest.pdf, id=330, 190.14035pt x 189.1647pt>
+<./tikz/RandomForest/RandomForest.pdf, id=331, 190.14035pt x 189.1647pt>
 File: ./tikz/RandomForest/RandomForest.pdf Graphic file (type pdf)
 
 <use ./tikz/RandomForest/RandomForest.pdf>
@@ -2173,7 +2173,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 275.
  [18
 
 ]
-<./tikz/BoostedTree/BoostedTree1.pdf, id=476, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree1.pdf, id=477, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree1.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree1.pdf>
@@ -2187,7 +2187,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 293.
  [19
 
 <./tikz/BoostedTree/BoostedTree1.pdf>]
-<./tikz/BoostedTree/BoostedTree2.pdf, id=496, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree2.pdf, id=497, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree2.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree2.pdf>
@@ -2201,7 +2201,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 293.
  [20
 
 <./tikz/BoostedTree/BoostedTree2.pdf>]
-<./tikz/BoostedTree/BoostedTree3.pdf, id=516, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree3.pdf, id=517, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree3.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree3.pdf>
@@ -2215,7 +2215,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 293.
  [21
 
 <./tikz/BoostedTree/BoostedTree3.pdf>]
-<./tikz/BoostedTree/BoostedTree.pdf, id=537, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree.pdf, id=538, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree.pdf>
@@ -2229,7 +2229,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 293.
  [22
 
 <./tikz/BoostedTree/BoostedTree.pdf>]
-<./tikz/Motiv/Motiv.pdf, id=557, 388.6219pt x 138.97319pt>
+<./tikz/Motiv/Motiv.pdf, id=558, 388.6219pt x 138.97319pt>
 File: ./tikz/Motiv/Motiv.pdf Graphic file (type pdf)
 
 <use ./tikz/Motiv/Motiv.pdf>
@@ -2242,7 +2242,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 301.
  [23
 
 <./tikz/Motiv/Motiv.pdf>]
-<./Plots/roc_info.pdf, id=583, 211.75009pt x 175.6151pt>
+<./Plots/roc_info.pdf, id=584, 211.75009pt x 175.6151pt>
 File: ./Plots/roc_info.pdf Graphic file (type pdf)
 
 <use ./Plots/roc_info.pdf>
@@ -2255,7 +2255,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 320.
  [24
 
 <./Plots/roc_info.pdf>]
-<./Plots/theta_cut.pdf, id=625, 211.75009pt x 211.75009pt>
+<./Plots/theta_cut.pdf, id=626, 211.75009pt x 211.75009pt>
 File: ./Plots/theta_cut.pdf Graphic file (type pdf)
 
 <use ./Plots/theta_cut.pdf>
@@ -2272,7 +2272,7 @@ Package luatex.def Info: logos/tu.pdf used on input line 320.
  [25
 
 <./Plots/theta_cut.pdf>]
-<./Plots/corr_sig_theta2.pdf, id=666, 211.75009pt x 175.6151pt>
+<./Plots/corr_sig_theta2.pdf, id=667, 211.75009pt x 175.6151pt>
 File: ./Plots/corr_sig_theta2.pdf Graphic file (type pdf)
 
 <use ./Plots/corr_sig_theta2.pdf>
@@ -2289,14 +2289,14 @@ Package luatex.def Info: logos/tu.pdf used on input line 337.
  [26
 
 <./Plots/corr_sig_theta2.pdf>]
-<./Plots/parameter_crab.pdf, id=700, 245.02057pt x 181.76497pt>
+<./Plots/parameter_crab.pdf, id=701, 245.02057pt x 181.76497pt>
 File: ./Plots/parameter_crab.pdf Graphic file (type pdf)
 
 <use ./Plots/parameter_crab.pdf>
 Package luatex.def Info: ./Plots/parameter_crab.pdf used on input line 387.
 (luatex.def)             Requested size: 196.01671pt x 145.41216pt.
 
-<./Plots/parameter_monte.pdf, id=701, 245.02057pt x 181.76497pt>
+<./Plots/parameter_monte.pdf, id=702, 245.02057pt x 181.76497pt>
 File: ./Plots/parameter_monte.pdf Graphic file (type pdf)
 
 <use ./Plots/parameter_monte.pdf>
@@ -2564,11 +2564,11 @@ Package logreq Info: Writing requests to 'example.run.xml'.
 Here is how much of LuaTeX's memory you used:
  40182 strings out of 494577
  100000,1373583 words of node,token memory allocated
- 14247 words of node memory still in use:
-   29 hlist, 8 vlist, 5 rule, 12 disc, 5 local_par, 1467 glue, 20 kern, 13 penal
-ty, 61 glyph, 632 attribute, 58 glue_spec, 632 attribute_list, 3 write, 1 pdf_ac
+ 14280 words of node memory still in use:
+   29 hlist, 8 vlist, 5 rule, 12 disc, 5 local_par, 1470 glue, 20 kern, 13 penal
+ty, 61 glyph, 635 attribute, 58 glue_spec, 635 attribute_list, 3 write, 1 pdf_ac
 tion, 8 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:3,2:513,3:254,4:141,5:195,6:845,7:407,8:108,9:412,10:19,11:146
+   avail lists: 1:3,2:513,3:254,4:141,5:195,6:851,7:407,8:108,9:412,10:19,11:146
 
  42351 multiletter control sequences out of 65536+600000
  63 fonts using 12417287 bytes
@@ -2589,7 +2589,7 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maximilia
 n/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home
 /maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb>
-Output written on example.pdf (45 pages, 4399311 bytes).
+Output written on example.pdf (45 pages, 4399345 bytes).
 
 PDF statistics: 1286 PDF objects out of 1440 (max. 8388607)
  885 compressed objects within 9 object streams
