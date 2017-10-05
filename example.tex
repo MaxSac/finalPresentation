@@ -36,7 +36,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %Titel:
-\title{Gamma/Hadron-Separation mit gemessenen OFF-Daten bei FACT}
+\title{Gamma/Hadron-Separation mit gemessenen Untergrunddaten bei FACT}
 %Autor
 \author[M.~Sackel]{Maximilian Sackel}
 %Lehrstuhl/Fakultät
@@ -136,8 +136,8 @@
 	\column{.5\textwidth}
 	\begin{itemize}
 	  \item berechne Bildparameter (Hillas Parameter) des Kamerabildes
-	  \item Bild Parameter werden zum klassifizieren benötigt
-	  \item Vorzeichen des Schauers nicht eindeutig
+	  \item Bildparameter werden zum Klassifizieren benötigt
+	  \item Richtung des Schauers nicht eindeutig
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -152,7 +152,7 @@
 	\column{.5\textwidth}
 	\begin{itemize}
 	  \item FACT nimmt keine OFF-Daten
-	  \item Daten werden im Wobblemodus aufgenommen
+	  \item Daten werden im Wobble-Modus aufgenommen
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -184,12 +184,12 @@
 	  \includegraphics[scale=1]<2->{./tikz/TrainingData/TrainingData.pdf}
 	\end{figure}
 	\begin{itemize}
-	  \item<1-> Prozessierte Monte Carlo-Simulationen mit CORSIKA
-	  \item<3-> gemessener Untergrund folgt der wahren Verteilungen
+	  \item<1-> Trainingsdaten simuliert mit CORSIKA 
+	  \item<3-> gemessener Untergrund folgt der wahren Verteilung
 		\begin{itemize}
 		  \item<3-> Verbesserung der Separation
 		\end{itemize}
-	  \item<4-> Proton-Simulation kann eingestellt werden
+	  \item<4-> Protonen-Simulation kann eingestellt werden
 	\end{itemize}
   \end{frame}
 
@@ -287,7 +287,7 @@
 	  \item höhere Gewichtung von Fehlklassifizierungen
 	  \item ausgeglichenere Vorhersage
 	  \item lässt sich nicht parallelisieren
-	  \item Modelle mit geringere Komplexität
+	  \item Modelle mit geringerer Komplexität
 	\end{itemize}
   \end{columns}
 \end{frame}
@@ -310,17 +310,16 @@
 	  \includegraphics[height=0.9\textheight]<2>{./Plots/theta_cut.pdf}
 	\end{figure}
 	\column{.5\textwidth}
-	Bereinigen der gemessen Daten von Gamma-Ereignissen 
+	Protonen werden aus Daten extrahiert
 	\begin{itemize}
 	  \item ohne Eingang des Daten-Monte Carlo-Mismatches
 	  \item möglichst reiner Datensatz
-	  \item paar diffuse Gamma lassen sich physikalisch motivieren
+	  \item wenige diffuse Gamma lassen sich physikalisch motivieren
 	\end{itemize}
   \end{columns}
 \end{frame}
 
 \begin{frame}{Überprüfen Trainingsdatensatzes}
-  Signifikanzen eines für unterschiedliche $\theta$-Schnitten trainierte Modelle anhand von simulierte Gamma- sowie Proton-Ereignissen
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
 	\begin{figure}
@@ -329,10 +328,13 @@
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
-	  \item Detektoreigenschaften für große $\theta$ nicht zu vernachlässigen
-%	  \item Signifikanz abhaengig vom $\theta$-Schnitt
-	  \item \theta-Schnitt in Abhängigkeit der Reinheit und Korrelation der Signifikanz
+	  \item simulierte Proton-Datensets werden durch verschiedene Theta-Schnitte erstellt
+	  \item Modelle werden mit verschiedenen Proton-Datensets trainiert
 	\end{itemize}
+	\begin{enumerate}
+	  \item Detektoreigenschaften für große $\theta$ nicht zu vernachlässigen
+	  \item Abwägen zwischen Signifikanz und Reinheit des Datensatzes
+	\end{enumerate}
   \end{columns}
 \end{frame}
 
@@ -425,7 +427,7 @@
 	  \begin{itemize}
 		\item Komplexität
 		\item viele Spezialisten auf ihrem Gebiet
-		\item anfällig auf Training von Mismatches
+		\item sensitiv auf Daten-Monte Carlo-Mismatches
 	  \end{itemize}
 	  \column{.5\textwidth}
 	  \Large \bf XGBoost Classifier (Tiefe 1)
@@ -471,7 +473,9 @@
 	  \includegraphics[scale=0.5]{./tikz/Conf/Conf4.pdf}
 	\end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.10\textheight][t]{\textwidth}
+  \end{minipage}
+  \begin{minipage}[t][0.65\textheight][t]{\textwidth}
 	\begin{table}
 	  \begin{tabular}{l s s s s}
 		\toprule 
@@ -480,8 +484,8 @@
 		& Random & XGBoost        & Random & XGBoost   \\
 		& Forest & (Tiefe= 1)   & Forest & (Tiefe= 1)\\
 		unklassifizierte Daten & \multicolumn{2}{c}{\SI{21.4}{\sigma}}  & \multicolumn{2}{c}{\SI{17.1}{\sigma}} \\
-		MC-Proton              & \SI{41.9}{\sigma}  & \SI{41.3}{\sigma} & \SI{35.5}{\sigma} & \SI{35.6}{\sigma}\\
-		gemessene Proton       & \SI{32.9}{\sigma}  & \SI{37.8}{\sigma} & \SI{23.6}{\sigma} & \SI{35.2}{\sigma}\\
+		MC-Protonen              & \SI{41.9}{\sigma}  & \SI{41.3}{\sigma} & \SI{35.5}{\sigma} & \SI{35.6}{\sigma}\\
+		gemessene Protonen       & \SI{32.9}{\sigma}  & \SI{37.8}{\sigma} & \SI{23.6}{\sigma} & \SI{35.2}{\sigma}\\
 		\bottomrule
 	  \end{tabular}
 	\end{table}
@@ -489,14 +493,13 @@
 \end{frame}
 
 \section{Mögliche Ursachen}
-
 \begin{frame}{Thesen}
   \begin{itemize}
-	\item<1-> Modelle nutzen die Daten-Monte Carlo-Mismatches als zusätzliche Information
+	\item<1-> Modelle trainieren Unterschied zwischen echten und simulierten Daten
 	  \begin{itemize}
-		\item klassifizierte Datensätze weisen bei komplexere Modelle niedrigere Signifikanzen auf
+		\item klassifizierte Datensätze weisen bei komplexeren Modellen niedrigere Signifikanzen auf
 	  \end{itemize}
-	\item<2> Reduzierung schlecht simulierte Attribute
+	\item<2> Reduzierung von schlecht simulierten Attributen
 	  \begin{itemize}
 		\item Erhöhung der Signifikanz durch Reduzierung von Mismatches
 	  \end{itemize}
@@ -520,7 +523,7 @@
   \end{columns}
   \begin{itemize}
 	\item Konfidenzverteilung nicht direkt vergleichbar
-	\item Beide Bäume nach derselbem Kriterium gebaut
+	\item Beide Bäume nach demselbem Kriterium gebaut
   \end{itemize}
 \end{frame}
 
@@ -546,29 +549,23 @@
   \end{table}
   \vspace{1cm}
   \begin{itemize}
-	\item ROC-AUC-Wert: Separation zwischen Monte-Carlo und gemessenen Untergrund
+	\item ROC-AUC-Wert: Separation zwischen Monte-Carlo und gemessenem Untergrund
 	\item Signifikanz des Datensatz vor und nach dem Entfernen der Attribute
   \end{itemize}
 \end{frame}
 
-\section{Resüme}
+\section{Fazit}
 \begin{frame}
   \begin{itemize}
-	\item<1-> Unter den dies zeitigen Monte Carlo-Simulationen wird die Simulation nicht verbessert 
+	\item<1-> momentan keine Verbesserung
 	\item<2-> Verbesserung der Monte Carlo-Simulationen 
 	\item<3-> Datennahme von OFF-Daten
-	\item<4-> Modell welches resistenter gegen Mismatches ist
+	\item<4-> Mismatch-unempfindliches Modell
   \end{itemize}
 \end{frame}
 
 \section{Quellen}
 \begin{frame}
   \printbibliography
-\end{frame}
-\section{}
-\begin{frame}
-  \centering
-  \Huge
-  Fragen, Anregungen, Kommentare
 \end{frame}
 \end{document}
