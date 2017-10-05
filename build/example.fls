@@ -438,8 +438,6 @@ INPUT ./images/tudo-title-2.jpg
 INPUT images/tudo-title-2.jpg
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
 INPUT ./images/sources-detection.jpg
 INPUT ./images/sources-detection.jpg
 INPUT ./images/sources-detection.jpg
@@ -578,6 +576,12 @@ INPUT ./Plots/parameter_crab.pdf
 INPUT ./Plots/parameter_crab.pdf
 INPUT ./Plots/parameter_crab.pdf
 INPUT ./Plots/parameter_monte.pdf
+INPUT ./Plots/parameter_monte.pdf
+INPUT ./Plots/parameter_monte.pdf
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
+INPUT ./Plots/parameter_crab.pdf
+INPUT ./Plots/parameter_crab.pdf
 INPUT ./Plots/parameter_monte.pdf
 INPUT ./Plots/parameter_monte.pdf
 INPUT ./logos/tu.pdf
@@ -632,6 +636,8 @@ INPUT ./logos/tu.pdf
 INPUT ./Plots/feature_elemination.pdf
 INPUT ./Plots/feature_elemination.pdf
 INPUT ./Plots/feature_elemination.pdf
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf

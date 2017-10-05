@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  4 OCT 2017 23:06
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  5 OCT 2017 11:37
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.102 seconds
+luaotfload | main : initialization completed in 0.101 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -1913,501 +1913,509 @@ Package luatex.def Info: logos/tu.pdf used on input line 50.
 x.map}
 
 <./logos/tu.pdf><./images/tudo-title-2.jpg>]
-File: logos/tu.pdf Graphic file (type pdf)
-
-<use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 53.
-(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [2
-
-]
-<./images/sources-detection.jpg, id=33, 160.1985pt x 91.542pt>
+<./images/sources-detection.jpg, id=28, 160.1985pt x 91.542pt>
 File: ./images/sources-detection.jpg Graphic file (type jpg)
 
 <use ./images/sources-detection.jpg>
-Package luatex.def Info: ./images/sources-detection.jpg used on input line 62.
+Package luatex.def Info: ./images/sources-detection.jpg used on input line 59.
 (luatex.def)             Requested size: 340.19655pt x 194.41034pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 62.
+Package luatex.def Info: logos/tu.pdf used on input line 59.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [3
+ [2
 
-<./images/sources-detection.jpg>] <./images/FACT.jpg, id=44, 260.172pt x 390.25
+<./images/sources-detection.jpg>] <./images/FACT.jpg, id=39, 260.172pt x 390.25
 8pt>
 File: ./images/FACT.jpg Graphic file (type jpg)
 
 <use ./images/FACT.jpg>
-Package luatex.def Info: ./images/FACT.jpg used on input line 85.
+Package luatex.def Info: ./images/FACT.jpg used on input line 82.
 (luatex.def)             Requested size: 114.34502pt x 171.5165pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 85.
+Package luatex.def Info: logos/tu.pdf used on input line 82.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [4
+ [3
 
 <./images/FACT.jpg>]
 File: ./images/FACT.jpg Graphic file (type jpg)
 
 <use ./images/FACT.jpg>
-Package luatex.def Info: ./images/FACT.jpg used on input line 85.
+Package luatex.def Info: ./images/FACT.jpg used on input line 82.
 (luatex.def)             Requested size: 114.34502pt x 171.5165pt.
 
-<./tikz/FACT/FACT.pdf, id=55, 191.1632pt x 114.71457pt>
+<./tikz/FACT/FACT.pdf, id=50, 191.1632pt x 114.71457pt>
 File: ./tikz/FACT/FACT.pdf Graphic file (type pdf)
 
 <use ./tikz/FACT/FACT.pdf>
-Package luatex.def Info: ./tikz/FACT/FACT.pdf used on input line 85.
+Package luatex.def Info: ./tikz/FACT/FACT.pdf used on input line 82.
 (luatex.def)             Requested size: 285.84566pt x 171.5165pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 85.
+Package luatex.def Info: logos/tu.pdf used on input line 82.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [5
+ [4
 
 <./tikz/FACT/FACT.pdf>]
-<./images/photon_100GeV.png, id=90, 1027.84pt x 2055.68pt>
+<./images/photon_100GeV.png, id=85, 1027.84pt x 2055.68pt>
 File: ./images/photon_100GeV.png Graphic file (type png)
 
 <use ./images/photon_100GeV.png>
-Package luatex.def Info: ./images/photon_100GeV.png used on input line 113.
+Package luatex.def Info: ./images/photon_100GeV.png used on input line 110.
 (luatex.def)             Requested size: 85.04752pt x 170.07246pt.
 
-<./images/proton_100GeV.png, id=91, 1027.84pt x 2055.68pt>
+<./images/proton_100GeV.png, id=86, 1027.84pt x 2055.68pt>
 File: ./images/proton_100GeV.png Graphic file (type png)
 
 <use ./images/proton_100GeV.png>
-Package luatex.def Info: ./images/proton_100GeV.png used on input line 113.
+Package luatex.def Info: ./images/proton_100GeV.png used on input line 110.
 (luatex.def)             Requested size: 85.04752pt x 170.07246pt.
 
-Overfull \hbox (10.07999pt too wide) in paragraph at lines 113--113
+Overfull \hbox (10.07999pt too wide) in paragraph at lines 110--110
  []\TU/FiraSansLight(0)/m/n/9 [[][]3[][]] 
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 113.
+Package luatex.def Info: logos/tu.pdf used on input line 110.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [6
+ [5
 
 <./images/photon_100GeV.png><./images/proton_100GeV.png>]
-<./images/Gamma.pdf, id=108, 484.209pt x 484.209pt>
+<./images/Gamma.pdf, id=103, 484.209pt x 484.209pt>
 File: ./images/Gamma.pdf Graphic file (type pdf)
  <use ./images/Gamma.pdf>
-Package luatex.def Info: ./images/Gamma.pdf used on input line 129.
+Package luatex.def Info: ./images/Gamma.pdf used on input line 126.
 (luatex.def)             Requested size: 171.5149pt x 171.5165pt.
 
-<./images/Hadron.pdf, id=109, 479.15009pt x 479.15009pt>
+<./images/Hadron.pdf, id=104, 479.15009pt x 479.15009pt>
 File: ./images/Hadron.pdf Graphic file (type pdf)
 
 <use ./images/Hadron.pdf>
-Package luatex.def Info: ./images/Hadron.pdf used on input line 129.
+Package luatex.def Info: ./images/Hadron.pdf used on input line 126.
 (luatex.def)             Requested size: 171.51419pt x 171.5165pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 129.
+Package luatex.def Info: logos/tu.pdf used on input line 126.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [7
+ [6
 
-<./images/Gamma.pdf><./images/Hadron.pdf>] <./tikz/Camera/Camera.pdf, id=132, 5
+<./images/Gamma.pdf><./images/Hadron.pdf>] <./tikz/Camera/Camera.pdf, id=127, 5
 71.05545pt x 571.05545pt>
 File: ./tikz/Camera/Camera.pdf Graphic file (type pdf)
 
 <use ./tikz/Camera/Camera.pdf>
-Package luatex.def Info: ./tikz/Camera/Camera.pdf used on input line 146.
+Package luatex.def Info: ./tikz/Camera/Camera.pdf used on input line 143.
 (luatex.def)             Requested size: 171.51836pt x 171.5165pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 146.
+Package luatex.def Info: logos/tu.pdf used on input line 143.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [8
+ [7
 
-<./tikz/Camera/Camera.pdf>] <./tikz/Wobble/Wobble.pdf, id=157, 571.05545pt x 58
+<./tikz/Camera/Camera.pdf>] <./tikz/Wobble/Wobble.pdf, id=152, 571.05545pt x 58
 4.80482pt>
 File: ./tikz/Wobble/Wobble.pdf Graphic file (type pdf)
 
 <use ./tikz/Wobble/Wobble.pdf>
-Package luatex.def Info: ./tikz/Wobble/Wobble.pdf used on input line 161.
+Package luatex.def Info: ./tikz/Wobble/Wobble.pdf used on input line 158.
 (luatex.def)             Requested size: 167.48396pt x 171.5165pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 161.
+Package luatex.def Info: logos/tu.pdf used on input line 158.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [9
+ [8
 
-<./tikz/Wobble/Wobble.pdf>] <./tikz/Target/Target.pdf, id=186, 225.01866pt x 70
+<./tikz/Wobble/Wobble.pdf>] <./tikz/Target/Target.pdf, id=181, 225.01866pt x 70
 .68608pt>
 File: ./tikz/Target/Target.pdf Graphic file (type pdf)
 
 <use ./tikz/Target/Target.pdf>
-Package luatex.def Info: ./tikz/Target/Target.pdf used on input line 181.
+Package luatex.def Info: ./tikz/Target/Target.pdf used on input line 178.
 (luatex.def)             Requested size: 157.51198pt x 49.47989pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 181.
+Package luatex.def Info: logos/tu.pdf used on input line 178.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [10
+ [9
 
 <./tikz/Target/Target.pdf>]
 File: ./tikz/Target/Target.pdf Graphic file (type pdf)
- <use ./tikz/Target/Target.pdf>
-Package luatex.def Info: ./tikz/Target/Target.pdf used on input line 181.
+<use ./tikz/Target/Target.pdf>
+Package luatex.def Info: ./tikz/Target/Target.pdf used on input line 178.
 (luatex.def)             Requested size: 157.51198pt x 49.47989pt.
 
-<./tikz/Supervised/Supervised.pdf, id=206, 326.76176pt x 107.23663pt>
+<./tikz/Supervised/Supervised.pdf, id=201, 326.76176pt x 107.23663pt>
 File: ./tikz/Supervised/Supervised.pdf Graphic file (type pdf)
 
 <use ./tikz/Supervised/Supervised.pdf>
-Package luatex.def Info: ./tikz/Supervised/Supervised.pdf used on input line 181
+Package luatex.def Info: ./tikz/Supervised/Supervised.pdf used on input line 178
 .
 (luatex.def)             Requested size: 228.73166pt x 75.06511pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 181.
+Package luatex.def Info: logos/tu.pdf used on input line 178.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [11
+ [10
 
 <./tikz/Supervised/Supervised.pdf>]
 File: ./tikz/Target/Target.pdf Graphic file (type pdf)
  <use ./tikz/Target/Target.pdf>
-Package luatex.def Info: ./tikz/Target/Target.pdf used on input line 181.
+Package luatex.def Info: ./tikz/Target/Target.pdf used on input line 178.
 (luatex.def)             Requested size: 157.51198pt x 49.47989pt.
 
-<./tikz/Supervised/Supervised2.pdf, id=227, 326.76176pt x 107.23663pt>
+<./tikz/Supervised/Supervised2.pdf, id=221, 326.76176pt x 107.23663pt>
 File: ./tikz/Supervised/Supervised2.pdf Graphic file (type pdf)
 
 <use ./tikz/Supervised/Supervised2.pdf>
-Package luatex.def Info: ./tikz/Supervised/Supervised2.pdf used on input line 18
-1.
+Package luatex.def Info: ./tikz/Supervised/Supervised2.pdf used on input line 17
+8.
 (luatex.def)             Requested size: 228.73166pt x 75.06511pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 181.
+Package luatex.def Info: logos/tu.pdf used on input line 178.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [12
+ [11
 
 <./tikz/Supervised/Supervised2.pdf>]
-<./tikz/TrainingData/TrainingData1.pdf, id=247, 244.2485pt x 104.82965pt>
+<./tikz/TrainingData/TrainingData1.pdf, id=242, 244.2485pt x 104.82965pt>
 File: ./tikz/TrainingData/TrainingData1.pdf Graphic file (type pdf)
 
 <use ./tikz/TrainingData/TrainingData1.pdf>
 Package luatex.def Info: ./tikz/TrainingData/TrainingData1.pdf used on input lin
-e 197.
+e 194.
 (luatex.def)             Requested size: 244.24791pt x 104.82938pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 197.
+Package luatex.def Info: logos/tu.pdf used on input line 194.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [13
+ [12
 
 <./tikz/TrainingData/TrainingData1.pdf>]
-<./tikz/TrainingData/TrainingData.pdf, id=267, 244.2485pt x 104.82965pt>
+<./tikz/TrainingData/TrainingData.pdf, id=262, 244.2485pt x 104.82965pt>
 File: ./tikz/TrainingData/TrainingData.pdf Graphic file (type pdf)
 
 <use ./tikz/TrainingData/TrainingData.pdf>
 Package luatex.def Info: ./tikz/TrainingData/TrainingData.pdf used on input line
- 197.
+ 194.
 (luatex.def)             Requested size: 244.24791pt x 104.82938pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 197.
+Package luatex.def Info: logos/tu.pdf used on input line 194.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [14
+ [13
 
 <./tikz/TrainingData/TrainingData.pdf>]
 File: ./tikz/TrainingData/TrainingData.pdf Graphic file (type pdf)
  <use ./tikz/TrainingData/TrainingData.pdf>
 Package luatex.def Info: ./tikz/TrainingData/TrainingData.pdf used on input line
- 197.
+ 194.
 (luatex.def)             Requested size: 244.24791pt x 104.82938pt.
 File: logos/tu.pdf Graphic file (type pdf)
 
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 197.
+Package luatex.def Info: logos/tu.pdf used on input line 194.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [15
+ [14
 
 ]
 File: ./tikz/TrainingData/TrainingData.pdf Graphic file (type pdf)
  <use ./tikz/TrainingData/TrainingData.pdf>
 Package luatex.def Info: ./tikz/TrainingData/TrainingData.pdf used on input line
- 197.
+ 194.
 (luatex.def)             Requested size: 244.24791pt x 104.82938pt.
 File: logos/tu.pdf Graphic file (type pdf)
 
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 197.
+Package luatex.def Info: logos/tu.pdf used on input line 194.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [16
+ [15
 
 ]
-<./tikz/Tree/Tree.pdf, id=302, 183.78664pt x 148.11838pt>
+<./tikz/Tree/Tree.pdf, id=296, 183.78664pt x 148.11838pt>
 File: ./tikz/Tree/Tree.pdf Graphic file (type pdf)
 
 <use ./tikz/Tree/Tree.pdf>
-Package luatex.def Info: ./tikz/Tree/Tree.pdf used on input line 228.
+Package luatex.def Info: ./tikz/Tree/Tree.pdf used on input line 225.
 (luatex.def)             Requested size: 170.09503pt x 137.08644pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 228.
+Package luatex.def Info: logos/tu.pdf used on input line 225.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [17
+ [16
 
 <./tikz/Tree/Tree.pdf>]
 File: ./tikz/Tree/Tree.pdf Graphic file (type pdf)
 
 <use ./tikz/Tree/Tree.pdf>
-Package luatex.def Info: ./tikz/Tree/Tree.pdf used on input line 243.
+Package luatex.def Info: ./tikz/Tree/Tree.pdf used on input line 240.
 (luatex.def)             Requested size: 183.78618pt x 148.118pt.
 
-<./tikz/RandomForest/RandomForest.pdf, id=335, 190.14035pt x 189.1647pt>
+<./tikz/RandomForest/RandomForest.pdf, id=330, 190.14035pt x 189.1647pt>
 File: ./tikz/RandomForest/RandomForest.pdf Graphic file (type pdf)
 
 <use ./tikz/RandomForest/RandomForest.pdf>
 Package luatex.def Info: ./tikz/RandomForest/RandomForest.pdf used on input line
- 243.
+ 240.
 (luatex.def)             Requested size: 190.13988pt x 189.16423pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 243.
+Package luatex.def Info: logos/tu.pdf used on input line 240.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [18
+ [17
 
 <./tikz/RandomForest/RandomForest.pdf>]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 278.
+Package luatex.def Info: logos/tu.pdf used on input line 275.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [19
+ [18
 
 ]
-<./tikz/BoostedTree/BoostedTree1.pdf, id=481, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree1.pdf, id=476, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree1.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree1.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree1.pdf used on input line 
-296.
+293.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 296.
+Package luatex.def Info: logos/tu.pdf used on input line 293.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [20
+ [19
 
 <./tikz/BoostedTree/BoostedTree1.pdf>]
-<./tikz/BoostedTree/BoostedTree2.pdf, id=501, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree2.pdf, id=496, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree2.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree2.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree2.pdf used on input line 
-296.
+293.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 296.
+Package luatex.def Info: logos/tu.pdf used on input line 293.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [21
+ [20
 
 <./tikz/BoostedTree/BoostedTree2.pdf>]
-<./tikz/BoostedTree/BoostedTree3.pdf, id=522, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree3.pdf, id=516, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree3.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree3.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree3.pdf used on input line 
-296.
+293.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 296.
+Package luatex.def Info: logos/tu.pdf used on input line 293.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [22
+ [21
 
 <./tikz/BoostedTree/BoostedTree3.pdf>]
-<./tikz/BoostedTree/BoostedTree.pdf, id=542, 173.11676pt x 173.11676pt>
+<./tikz/BoostedTree/BoostedTree.pdf, id=537, 173.11676pt x 173.11676pt>
 File: ./tikz/BoostedTree/BoostedTree.pdf Graphic file (type pdf)
 
 <use ./tikz/BoostedTree/BoostedTree.pdf>
 Package luatex.def Info: ./tikz/BoostedTree/BoostedTree.pdf used on input line 2
-96.
+93.
 (luatex.def)             Requested size: 170.09503pt x 170.09969pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 296.
+Package luatex.def Info: logos/tu.pdf used on input line 293.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [23
+ [22
 
 <./tikz/BoostedTree/BoostedTree.pdf>]
-<./tikz/Motiv/Motiv.pdf, id=562, 388.6219pt x 138.97319pt>
+<./tikz/Motiv/Motiv.pdf, id=557, 388.6219pt x 138.97319pt>
 File: ./tikz/Motiv/Motiv.pdf Graphic file (type pdf)
 
 <use ./tikz/Motiv/Motiv.pdf>
-Package luatex.def Info: ./tikz/Motiv/Motiv.pdf used on input line 304.
+Package luatex.def Info: ./tikz/Motiv/Motiv.pdf used on input line 301.
 (luatex.def)             Requested size: 425.24408pt x 152.08pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 304.
+Package luatex.def Info: logos/tu.pdf used on input line 301.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [24
+ [23
 
 <./tikz/Motiv/Motiv.pdf>]
-<./Plots/roc_info.pdf, id=588, 211.75009pt x 175.6151pt>
+<./Plots/roc_info.pdf, id=583, 211.75009pt x 175.6151pt>
 File: ./Plots/roc_info.pdf Graphic file (type pdf)
 
 <use ./Plots/roc_info.pdf>
-Package luatex.def Info: ./Plots/roc_info.pdf used on input line 323.
+Package luatex.def Info: ./Plots/roc_info.pdf used on input line 320.
 (luatex.def)             Requested size: 212.62204pt x 176.34888pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 323.
+Package luatex.def Info: logos/tu.pdf used on input line 320.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [25
+ [24
 
 <./Plots/roc_info.pdf>]
-<./Plots/theta_cut.pdf, id=630, 211.75009pt x 211.75009pt>
+<./Plots/theta_cut.pdf, id=625, 211.75009pt x 211.75009pt>
 File: ./Plots/theta_cut.pdf Graphic file (type pdf)
 
 <use ./Plots/theta_cut.pdf>
-Package luatex.def Info: ./Plots/theta_cut.pdf used on input line 323.
+Package luatex.def Info: ./Plots/theta_cut.pdf used on input line 320.
 (luatex.def)             Requested size: 192.96751pt x 192.95401pt.
 
-Overfull \vbox (3.9392pt too high) detected at line 323
+Overfull \vbox (3.9392pt too high) detected at line 320
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 323.
+Package luatex.def Info: logos/tu.pdf used on input line 320.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [26
+ [25
 
 <./Plots/theta_cut.pdf>]
-<./Plots/corr_sig_theta2.pdf, id=671, 211.75009pt x 175.6151pt>
+<./Plots/corr_sig_theta2.pdf, id=666, 211.75009pt x 175.6151pt>
 File: ./Plots/corr_sig_theta2.pdf Graphic file (type pdf)
 
 <use ./Plots/corr_sig_theta2.pdf>
-Package luatex.def Info: ./Plots/corr_sig_theta2.pdf used on input line 340.
+Package luatex.def Info: ./Plots/corr_sig_theta2.pdf used on input line 337.
 (luatex.def)             Requested size: 212.62204pt x 176.34888pt.
 
-Overfull \vbox (11.07906pt too high) detected at line 340
+Overfull \vbox (11.07906pt too high) detected at line 337
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 340.
+Package luatex.def Info: logos/tu.pdf used on input line 337.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [27
+ [26
 
 <./Plots/corr_sig_theta2.pdf>]
-<./Plots/parameter_crab.pdf, id=705, 245.02057pt x 181.76497pt>
+<./Plots/parameter_crab.pdf, id=700, 245.02057pt x 181.76497pt>
 File: ./Plots/parameter_crab.pdf Graphic file (type pdf)
 
 <use ./Plots/parameter_crab.pdf>
-Package luatex.def Info: ./Plots/parameter_crab.pdf used on input line 368.
-(luatex.def)             Requested size: 147.01346pt x 109.05981pt.
+Package luatex.def Info: ./Plots/parameter_crab.pdf used on input line 387.
+(luatex.def)             Requested size: 196.01671pt x 145.41216pt.
 
-<./Plots/parameter_monte.pdf, id=706, 245.02057pt x 181.76497pt>
+<./Plots/parameter_monte.pdf, id=701, 245.02057pt x 181.76497pt>
 File: ./Plots/parameter_monte.pdf Graphic file (type pdf)
 
 <use ./Plots/parameter_monte.pdf>
-Package luatex.def Info: ./Plots/parameter_monte.pdf used on input line 368.
+Package luatex.def Info: ./Plots/parameter_monte.pdf used on input line 387.
+(luatex.def)             Requested size: 196.01671pt x 145.41216pt.
+File: logos/tu.pdf Graphic file (type pdf)
+ <use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 387.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [27
+
+<./Plots/parameter_crab.pdf><./Plots/parameter_monte.pdf>]
+File: ./Plots/parameter_crab.pdf Graphic file (type pdf)
+ <use ./Plots/parameter_crab.pdf>
+Package luatex.def Info: ./Plots/parameter_crab.pdf used on input line 387.
+(luatex.def)             Requested size: 147.01346pt x 109.05981pt.
+File: ./Plots/parameter_monte.pdf Graphic file (type pdf)
+
+<use ./Plots/parameter_monte.pdf>
+Package luatex.def Info: ./Plots/parameter_monte.pdf used on input line 387.
 (luatex.def)             Requested size: 147.01346pt x 109.05981pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 368.
+Package luatex.def Info: logos/tu.pdf used on input line 387.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [28
 
-<./Plots/parameter_crab.pdf><./Plots/parameter_monte.pdf>]
+]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 378.
+Package luatex.def Info: logos/tu.pdf used on input line 397.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
- [29
 
-]
-<./tikz/Conf/Conf1.pdf, id=824, 490.3168pt x 89.91893pt>
+[29
+
+] <./tikz/Conf/Conf1.pdf, id=826, 490.3168pt x 89.91893pt>
 File: ./tikz/Conf/Conf1.pdf Graphic file (type pdf)
 
 <use ./tikz/Conf/Conf1.pdf>
-Package luatex.def Info: ./tikz/Conf/Conf1.pdf used on input line 392.
+Package luatex.def Info: ./tikz/Conf/Conf1.pdf used on input line 411.
 (luatex.def)             Requested size: 245.15779pt x 44.95934pt.
 
-<./Plots/on_off_ratio.pdf, id=825, 211.75009pt x 175.6151pt>
+<./Plots/on_off_ratio.pdf, id=827, 247.8851pt x 175.6151pt>
 File: ./Plots/on_off_ratio.pdf Graphic file (type pdf)
 
 <use ./Plots/on_off_ratio.pdf>
-Package luatex.def Info: ./Plots/on_off_ratio.pdf used on input line 392.
-(luatex.def)             Requested size: 180.96097pt x 150.0757pt.
+Package luatex.def Info: ./Plots/on_off_ratio.pdf used on input line 411.
+(luatex.def)             Requested size: 211.84183pt x 150.0757pt.
 
-Overfull \vbox (11.94998pt too high) detected at line 392
+Overfull \vbox (11.94998pt too high) detected at line 411
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 392.
+Package luatex.def Info: logos/tu.pdf used on input line 411.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [30
 
 <./tikz/Conf/Conf1.pdf><./Plots/on_off_ratio.pdf>]
-<./tikz/Conf/Conf2.pdf, id=882, 490.3168pt x 89.91893pt>
+<./tikz/Conf/Conf2.pdf, id=884, 490.3168pt x 89.91893pt>
 File: ./tikz/Conf/Conf2.pdf Graphic file (type pdf)
 
 <use ./tikz/Conf/Conf2.pdf>
-Package luatex.def Info: ./tikz/Conf/Conf2.pdf used on input line 417.
+Package luatex.def Info: ./tikz/Conf/Conf2.pdf used on input line 438.
 (luatex.def)             Requested size: 245.15779pt x 44.95934pt.
 
-Overfull \vbox (11.94998pt too high) detected at line 417
+Overfull \vbox (12.94997pt too high) detected at line 438
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 417.
+Package luatex.def Info: logos/tu.pdf used on input line 438.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [31
 
 <./tikz/Conf/Conf2.pdf>]
-<./tikz/Conf/Conf3.pdf, id=907, 490.3168pt x 89.91893pt>
+<./tikz/Conf/Conf3.pdf, id=909, 490.3168pt x 89.91893pt>
 File: ./tikz/Conf/Conf3.pdf Graphic file (type pdf)
 
 <use ./tikz/Conf/Conf3.pdf>
-Package luatex.def Info: ./tikz/Conf/Conf3.pdf used on input line 431.
+Package luatex.def Info: ./tikz/Conf/Conf3.pdf used on input line 452.
 (luatex.def)             Requested size: 245.15779pt x 44.95934pt.
- <Plots/conf.pdf, id=908, 211.75009pt x 175.6151pt>
+ <Plots/conf.pdf, id=910, 247.8851pt x 175.6151pt>
 File: Plots/conf.pdf Graphic file (type pdf)
 
 <use Plots/conf.pdf>
-Package luatex.def Info: Plots/conf.pdf used on input line 431.
-(luatex.def)             Requested size: 180.96097pt x 150.0757pt.
+Package luatex.def Info: Plots/conf.pdf used on input line 452.
+(luatex.def)             Requested size: 211.84183pt x 150.0757pt.
 
-Overfull \vbox (11.94998pt too high) detected at line 431
+Overfull \vbox (11.94998pt too high) detected at line 452
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 431.
+Package luatex.def Info: logos/tu.pdf used on input line 452.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [32
 
 <./tikz/Conf/Conf3.pdf><./Plots/conf.pdf>]
-<./tikz/Conf/Conf4.pdf, id=959, 490.3168pt x 89.91893pt>
+<./tikz/Conf/Conf4.pdf, id=961, 490.3168pt x 89.91893pt>
 File: ./tikz/Conf/Conf4.pdf Graphic file (type pdf)
 
 <use ./tikz/Conf/Conf4.pdf>
-Package luatex.def Info: ./tikz/Conf/Conf4.pdf used on input line 445.
+Package luatex.def Info: ./tikz/Conf/Conf4.pdf used on input line 466.
 (luatex.def)             Requested size: 245.15779pt x 44.95934pt.
 
-<./Plots/maxSignificance.pdf, id=960, 211.75009pt x 175.6151pt>
+<./Plots/maxSignificance.pdf, id=962, 247.8851pt x 175.6151pt>
 File: ./Plots/maxSignificance.pdf Graphic file (type pdf)
 
 <use ./Plots/maxSignificance.pdf>
-Package luatex.def Info: ./Plots/maxSignificance.pdf used on input line 445.
-(luatex.def)             Requested size: 180.96097pt x 150.0757pt.
+Package luatex.def Info: ./Plots/maxSignificance.pdf used on input line 466.
+(luatex.def)             Requested size: 211.84183pt x 150.0757pt.
 
-Overfull \vbox (11.94998pt too high) detected at line 445
+Overfull \vbox (11.94998pt too high) detected at line 466
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 445.
+Package luatex.def Info: logos/tu.pdf used on input line 466.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [33
 
@@ -2415,74 +2423,74 @@ Package luatex.def Info: logos/tu.pdf used on input line 445.
 File: ./tikz/Conf/Conf4.pdf Graphic file (type pdf)
 
 <use ./tikz/Conf/Conf4.pdf>
-Package luatex.def Info: ./tikz/Conf/Conf4.pdf used on input line 468.
+Package luatex.def Info: ./tikz/Conf/Conf4.pdf used on input line 489.
 (luatex.def)             Requested size: 245.15779pt x 44.95934pt.
 
-Overfull \vbox (11.94998pt too high) detected at line 468
+Overfull \vbox (11.94998pt too high) detected at line 489
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 468.
+Package luatex.def Info: logos/tu.pdf used on input line 489.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [34
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 483.
+Package luatex.def Info: logos/tu.pdf used on input line 504.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [35
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 483.
+Package luatex.def Info: logos/tu.pdf used on input line 504.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [36
 
 ]
-<./Plots/sig_mess_tree.pdf, id=1025, 185.23404pt x 142.80553pt>
+<./Plots/sig_mess_tree.pdf, id=1027, 185.23404pt x 142.80553pt>
 File: ./Plots/sig_mess_tree.pdf Graphic file (type pdf)
 
 <use ./Plots/sig_mess_tree.pdf>
-Package luatex.def Info: ./Plots/sig_mess_tree.pdf used on input line 504.
+Package luatex.def Info: ./Plots/sig_mess_tree.pdf used on input line 525.
 (luatex.def)             Requested size: 170.09827pt x 131.14514pt.
 
-<./Plots/sig_mess_xgbc.pdf, id=1026, 185.23404pt x 142.80553pt>
+<./Plots/sig_mess_xgbc.pdf, id=1028, 185.23404pt x 142.80553pt>
 File: ./Plots/sig_mess_xgbc.pdf Graphic file (type pdf)
 
 <use ./Plots/sig_mess_xgbc.pdf>
-Package luatex.def Info: ./Plots/sig_mess_xgbc.pdf used on input line 504.
+Package luatex.def Info: ./Plots/sig_mess_xgbc.pdf used on input line 525.
 (luatex.def)             Requested size: 170.09827pt x 131.14514pt.
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 504.
+Package luatex.def Info: logos/tu.pdf used on input line 525.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [37
 
 <./Plots/sig_mess_tree.pdf><./Plots/sig_mess_xgbc.pdf>]
-<./Plots/feature_elemination.pdf, id=1087, 356.29012pt x 269.5671pt>
+<./Plots/feature_elemination.pdf, id=1089, 356.29012pt x 269.5671pt>
 File: ./Plots/feature_elemination.pdf Graphic file (type pdf)
 
 <use ./Plots/feature_elemination.pdf>
-Package luatex.def Info: ./Plots/feature_elemination.pdf used on input line 511.
+Package luatex.def Info: ./Plots/feature_elemination.pdf used on input line 532.
 
 (luatex.def)             Requested size: 255.02818pt x 192.95401pt.
 
-Overfull \vbox (0.9092pt too high) detected at line 511
+Overfull \vbox (0.9092pt too high) detected at line 532
  []
 
 File: logos/tu.pdf Graphic file (type pdf)
 <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 511.
+Package luatex.def Info: logos/tu.pdf used on input line 532.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [38
 
 <./Plots/feature_elemination.pdf>]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 526.
+Package luatex.def Info: logos/tu.pdf used on input line 552.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
 
 [39
@@ -2490,21 +2498,21 @@ Package luatex.def Info: logos/tu.pdf used on input line 526.
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 536.
+Package luatex.def Info: logos/tu.pdf used on input line 562.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [40
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 536.
+Package luatex.def Info: logos/tu.pdf used on input line 562.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [41
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 536.
+Package luatex.def Info: logos/tu.pdf used on input line 562.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
 
 [42
@@ -2512,19 +2520,27 @@ Package luatex.def Info: logos/tu.pdf used on input line 536.
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 536.
+Package luatex.def Info: logos/tu.pdf used on input line 562.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [43
 
 ]
 File: logos/tu.pdf Graphic file (type pdf)
  <use logos/tu.pdf>
-Package luatex.def Info: logos/tu.pdf used on input line 541.
+Package luatex.def Info: logos/tu.pdf used on input line 567.
 (luatex.def)             Requested size: 130.2732pt x 22.76271pt.
  [44
 
 </home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/art/beamericon
 article.pdf>]
+File: logos/tu.pdf Graphic file (type pdf)
+
+<use logos/tu.pdf>
+Package luatex.def Info: logos/tu.pdf used on input line 573.
+(luatex.def)             Requested size: 130.2732pt x 22.76271pt.
+ [45
+
+]
 \tf@nav=\write7
 
 \openout7 = example.nav
@@ -2534,27 +2550,26 @@ article.pdf>]
 \tf@snm=\write9
 
 \openout9 = example.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 542.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 542.
-
-(./build/example.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
+ (./build/example.aux
 Language ngerman already loaded; id is 8)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 542.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 542.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 574.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 574.
 Package logreq Info: Writing requests to 'example.run.xml'.
 
 \openout1 = example.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 40161 strings out of 494577
+ 40182 strings out of 494577
  100000,1373583 words of node,token memory allocated
- 17696 words of node memory still in use:
-   41 hlist, 8 vlist, 8 rule, 1 mark, 28 disc, 7 local_par, 6 math, 1547 glue, 6
-1 kern, 54 penalty, 348 glyph, 693 attribute, 58 glue_spec, 693 attribute_list, 
-6 write, 3 pdf_start_link, 3 pdf_end_link, 4 pdf_dest, 3 pdf_action, 44 pdf_colo
-rstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:3,2:369,3:206,4:105,5:153,6:575,7:301,8:98,9:400,10:19,11:133
+ 14247 words of node memory still in use:
+   29 hlist, 8 vlist, 5 rule, 12 disc, 5 local_par, 1467 glue, 20 kern, 13 penal
+ty, 61 glyph, 632 attribute, 58 glue_spec, 632 attribute_list, 3 write, 1 pdf_ac
+tion, 8 pdf_colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
+   avail lists: 1:3,2:513,3:254,4:141,5:195,6:845,7:407,8:108,9:412,10:19,11:146
+
  42351 multiletter control sequences out of 65536+600000
  63 fonts using 12417287 bytes
  56i,19n,80p,772b,3015s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -2574,10 +2589,10 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maximilia
 n/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home
 /maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb>
-Output written on example.pdf (44 pages, 4396657 bytes).
+Output written on example.pdf (45 pages, 4399311 bytes).
 
-PDF statistics: 1276 PDF objects out of 1440 (max. 8388607)
- 876 compressed objects within 9 object streams
- 101 named destinations out of 1000 (max. 131072)
+PDF statistics: 1286 PDF objects out of 1440 (max. 8388607)
+ 885 compressed objects within 9 object streams
+ 104 named destinations out of 1000 (max. 131072)
  80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

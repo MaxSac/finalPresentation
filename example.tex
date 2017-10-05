@@ -48,9 +48,6 @@
 \begin{document}
 
 \maketitle
-\begin{frame}
-  \the \textwidth
-\end{frame}
 
 \section{Basics}
 \begin{frame}
@@ -188,7 +185,7 @@
 	\end{figure}
 	\begin{itemize}
 	  \item<1-> Prozesierte Monte Carlo-Simulationen mit CORSIKA
-	  \item<3-> gemessene Protonen sollten den echten Verteilungen folgen
+	  \item<3-> gemessener Untergrund folgt der wahren Verteilungen
 		\begin{itemize}
 		  \item<3-> Verbesserung der Separation
 		\end{itemize}
@@ -303,7 +300,7 @@
   \end{figure}
 \end{frame}
 
-\section{???}
+\section{Training}
 \begin{frame}{Erstellen Trainingsdatensatzes}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
@@ -340,54 +337,76 @@
 \end{frame}
 
 \begin{frame}{Optimieren der Modelle}
-  \begin{columns}[onlytextwidth]
-	\column{.5\textwidth}
-	\Large \bf Gemessener Untergrund
-	\begin{figure}
+  \only<1>{
+	\begin{columns}[onlytextwidth]
+	  \column{.5\textwidth}
+	  \Large \bf Gemessener Untergrund
+	  \vspace{0.4cm}
+	  \begin{figure}
+		\centering
+		\includegraphics[scale=0.8]{./Plots/parameter_crab.pdf}
+	  \end{figure}
+	  \vspace{0.3cm}
+	  \column{.5\textwidth}
+	  \Large \bf Monte Carlo Protonen
+	  \vspace{0.4cm}
+	  \begin{figure}
+		\centering
+		\includegraphics[scale=0.8]{./Plots/parameter_monte.pdf}
+	  \end{figure}
+	  \vspace{0.3cm}
+	\end{columns}
+  }
+  \only<2>{
+	\begin{columns}[onlytextwidth]
+	  \column{.5\textwidth}
+	  \Large \bf Gemessener Untergrund
+	  \begin{figure}
+		\centering
+		\includegraphics[scale=0.6]{./Plots/parameter_crab.pdf}
+	  \end{figure}
+	  \column{.5\textwidth}
+	  \Large \bf Monte Carlo Protonen
+	  \begin{figure}
+		\centering
+		\includegraphics[scale=0.6]{./Plots/parameter_monte.pdf}
+	  \end{figure}
+	\end{columns}
+	\begin{table}[H]
 	  \centering
-	  \includegraphics[scale=0.6]{./Plots/parameter_crab.pdf}
-	\end{figure}
-	\column{.5\textwidth}
-	\Large \bf Monte Carlo Protonen
-	\begin{figure}
-	  \centering
-	  \includegraphics[scale=0.6]{./Plots/parameter_monte.pdf}
-	\end{figure}
-  \end{columns}
-  \begin{table}[H]
-	\centering
-	\begin{tabular}{l s s}
-	  \toprule
-	  & MC-Daten & Messdaten \\
-	  \cmidrule(r){2-3}
-	  \texttt{XGBoost Classifier}	(Tiefe 1)	& \num{0.86(2)}	&\num{0.869(5)} \\ 
-	  \texttt{Random Forrest}					& \num{0.87(1)} & \num{0.89(1)} \\
-	  \bottomrule
-	\end{tabular}
-  \end{table}
+	  \begin{tabular}{l s s}
+		\toprule
+		& MC-Daten & Messdaten \\
+		\cmidrule(r){2-3}
+		\texttt{XGBoost Classifier}	(Tiefe 1)	& \num{0.86(2)}	&\num{0.869(5)} \\ 
+		\texttt{Random Forrest}					& \num{0.87(1)} & \num{0.89(1)} \\
+		\bottomrule
+	  \end{tabular}
+	\end{table}
+  }
 \end{frame}
 
 \section{Validieren auf echten Daten}
 
 \begin{frame}{Validieren auf echten Daten}
-	\begin{block}{Li und Ma Signifikanz}
-	  \begin{equation*}
-		S\left( N_\text{on}, N_\text{off}, \alpha \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
-	  \end{equation*}
-	\end{block}
+  \begin{block}{Li und Ma Signifikanz}
+	\begin{equation*}
+	  S\left( N_\text{on}, N_\text{off}, \alpha \right) = \sqrt{2} \left( N_\text{on} \ln \left[ \frac{1+ \alpha}{\alpha}\left( \frac{N_\text{on}}{N_\text{on} + N_\text{off}} \right) \right] + N_\text{off} \ln \left[ \left( 1+ \alpha \right) \left( \frac{N_\text{off}}{N_\text{on} + N_\text{off}} \right) \right] \right)^{1/2}
+	\end{equation*}
+  \end{block}
 \end{frame}
 
 \begin{frame}
   \begin{minipage}[t][0.25\textheight][t]{\textwidth}
-	  \begin{figure}
-		\includegraphics[scale=0.5]{./tikz/Conf/Conf1.pdf}
-	  \end{figure}
+	\begin{figure}
+	  \includegraphics[scale=0.5]{./tikz/Conf/Conf1.pdf}
+	\end{figure}
   \end{minipage}
   \begin{minipage}[t][0.75\textheight][t]{\textwidth}
-	  \begin{figure}
-		\centering
-		\includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
-	  \end{figure}
+	\begin{figure}
+	  \centering
+	  \includegraphics[height=0.7\textheight]{./Plots/on_off_ratio.pdf}
+	\end{figure}
   \end{minipage}
 \end{frame}
 
@@ -397,12 +416,14 @@
 	  \includegraphics[scale=0.5]{./tikz/Conf/Conf2.pdf}
 	\end{figure}
   \end{minipage}
-  \begin{minipage}[t][0.75\textheight][t]{\textwidth}
+  \begin{minipage}[t][0.10\textheight][t]{\textwidth}
+  \end{minipage}
+  \begin{minipage}[t][0.65\textheight][t]{\textwidth}
 	\begin{columns}[onlytextwidth]
 	  \column{.5\textwidth}
 	  \Large \bf Random Forest
 	  \begin{itemize}
-		\item komplexität
+		\item Komplexität
 		\item viele Spezialisten auf ihrem Gebiet
 		\item anfällig auf Training von Mismatchs
 	  \end{itemize}
@@ -473,7 +494,7 @@
   \begin{itemize}
 	\item<1-> Modelle nutzen die Daten-Monte Carlo-Mismatchs als zusätzliche Information
 	  \begin{itemize}
-		\item klassifizierte Datensätze weisen bei komplexere Modelle weisen niedrigere Signifikanzen auf
+		\item klassifizierte Datensätze weisen bei komplexere Modelle niedrigere Signifikanzen auf
 	  \end{itemize}
 	\item<2> Reduzierung schlecht simulierte Attribute
 	  \begin{itemize}
@@ -513,7 +534,7 @@
 \begin{frame}
   \begin{table}
 	\centering
-	\begin{tabular}{l s s}
+	\begin{tabular}{l c c}
 	  \toprule
 	  & ohne Attribut & mit Attribut \\
 	  & Eliminierung  & Eliminierung \\
@@ -523,6 +544,11 @@
 	  \bottomrule
 	\end{tabular}
   \end{table}
+  \vspace{1cm}
+  \begin{itemize}
+	\item ROC-AUC-Wert: Seperation zwischen Monte-Carlo und gemessenen Untergrund
+	\item Signifikanz des Datensatz vor und nach dem Entfernen der Attribute
+  \end{itemize}
 \end{frame}
 
 \section{Resüme}
@@ -538,5 +564,11 @@
 \section{Quellen}
 \begin{frame}
   \printbibliography
+\end{frame}
+\section{}
+\begin{frame}
+  \centering
+  \Huge
+  Fragen, Anregungen, Kommentare
 \end{frame}
 \end{document}
