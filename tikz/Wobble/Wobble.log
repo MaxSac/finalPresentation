@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  3 OCT 2017 19:20
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  13 OCT 2017 10:17
  restricted system commands enabled.
 **Wobble.tex
 (./Wobble.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.103 seconds
+luaotfload | main : initialization completed in 0.104 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.
@@ -1686,29 +1686,32 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
 (Font)              scaled to size 17.27972pt on input line 55.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
 (Font)              scaled to size 20.74pt on input line 55.
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/bx/n' will be
+(Font)              scaled to size 24.88pt on input line 73.
  [1
 
 {/home/maximilian/.local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.m
 ap}] (./Wobble.aux))
 
 Here is how much of LuaTeX's memory you used:
- 27541 strings out of 494577
+ 27545 strings out of 494577
  100000,794899 words of node,token memory allocated
- 6846 words of node memory still in use:
-   97 hlist, 2 vlist, 1 rule, 1 disc, 1 local_par, 8 math, 166 glue, 5 kern, 3 p
-enalty, 58 glyph, 642 attribute, 45 glue_spec, 642 attribute_list, 1 write, 466 
-pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:18,2:26,3:471,4:23,5:16,6:60,7:187,8:5,9:103,10:1,11:1
- 30218 multiletter control sequences out of 65536+600000
- 57 fonts using 20591387 bytes
- 55i,8n,87p,1002b,616s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 6925 words of node memory still in use:
+   97 hlist, 2 vlist, 1 rule, 1 disc, 2 local_par, 8 math, 166 glue, 13 kern, 2 
+penalty, 58 glyph, 651 attribute, 45 glue_spec, 651 attribute_list, 1 write, 466
+ pdf_literal, 18 pdf_colorstack nodes
+   avail lists: 1:18,2:26,3:470,4:23,5:24,6:61,7:187,8:5,9:103,11:1
+ 30219 multiletter control sequences out of 65536+600000
+ 58 fonts using 21025075 bytes
+ 55i,8n,87p,1002b,621s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/fira/Fira
-Sans-Regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype
-/public/lm-math/latinmodern-math.otf>
-Output written on Wobble.pdf (1 page, 19391 bytes).
+Sans-Bold.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/pu
+blic/fira/FiraSans-Regular.otf></home/maximilian/.local/texlive/2016/texmf-dist/
+fonts/opentype/public/lm-math/latinmodern-math.otf>
+Output written on Wobble.pdf (1 page, 22198 bytes).
 
-PDF statistics: 26 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+PDF statistics: 33 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

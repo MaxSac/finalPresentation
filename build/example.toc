@@ -8,4 +8,3 @@
 \beamer@sectionintoc {5}{Validieren auf echten Daten}{29}{0}{5}
 \beamer@sectionintoc {6}{Mögliche Ursachen}{35}{0}{6}
 \beamer@sectionintoc {7}{Fazit}{40}{0}{7}
-\beamer@sectionintoc {8}{Quellen}{44}{0}{8}

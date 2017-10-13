@@ -19,20 +19,9 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
-    \entry{Overview}{online}{}
-      \field{sortinit}{A}
-      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
-      \field{labeltitlesource}{title}
-      \field{title}{Astroparticle Physik}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \verb{url}
-      \verb https://astro.desy.de/
-      \endverb
-    \endentry
     \entry{FACT}{online}{}
       \name{author}{1}{}{%
-        {{hash=8fa40869fce5e84ec5ad510c435f1b43}{%
+        {{uniquename=0,hash=8fa40869fce5e84ec5ad510c435f1b43}{%
            family={Carlo},
            familyi={C\bibinitperiod},
            given={Miguel},
@@ -53,9 +42,30 @@
       \verb http://www.miguelclaro.com/wp/wp-content/uploads/2013/10/FACTMilkyWayVertical-4650-net.jpg
       \endverb
     \endentry
+    \entry{Overview}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=eccf0318bd2897673042ba89571c3066}{%
+           family={DESY},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{eccf0318bd2897673042ba89571c3066}
+      \strng{fullhash}{eccf0318bd2897673042ba89571c3066}
+      \strng{authornamehash}{eccf0318bd2897673042ba89571c3066}
+      \strng{authorfullhash}{eccf0318bd2897673042ba89571c3066}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Astroparticle Physik}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{url}
+      \verb https://astro.desy.de/
+      \endverb
+    \endentry
     \entry{corsika}{online}{}
       \name{author}{1}{}{%
-        {{hash=90cf806c60a0f6ee733bc817133c3960}{%
+        {{uniquename=0,hash=90cf806c60a0f6ee733bc817133c3960}{%
            family={Schmidt},
            familyi={S\bibinitperiod},
            given={Fabian},

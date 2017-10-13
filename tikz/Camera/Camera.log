@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  3 OCT 2017 19:15
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  13 OCT 2017 10:09
  restricted system commands enabled.
 **Camera.tex
 (./Camera.tex
@@ -490,7 +490,7 @@ LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)))
+))
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/fira/FiraSans.sty
 Package: FiraSans 2016/11/20 (Bob Tennent and autoinst) Style file for Fira Sans
  fonts.
@@ -1351,7 +1351,227 @@ f-var/luatex-cache/generic/fonts/otl/firasans-heavyitalic.luc)
 . <->s*[1]"[FiraSans-HeavyItalic.otf]:mode=node;script=latn;language=DFLT;+tlig;
 +pnum;+onum;+smcp;"
 .................................................
-) (./Camera.aux)
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode
+-math.sty
+Package: unicode-math 2017/01/27 v0.8d Unicode maths in XeLaTeX and LuaLaTeX
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/ucharcat/ucharcat.st
+y
+Package: ucharcat 2015/11/19 v0.03 ucharcat for luaLaTeX (DPC)
+\ucharcat@table=\catcodetable6
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/
+l3keys2e.sty
+Package: l3keys2e 2017/03/18 v7019 LaTeX2e option processing using LaTeX3 keys
+)
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.st
+y
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+\g__um_fam_int=\count160
+\g__um_primekern_muskip=\muskip16
+\l__um_primecount_int=\count161
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \unimathsetup with sig. 'm' on line 166.
+.................................................
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode
+-math-luatex.sty
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/lualatex/lualatex-math/lua
+latex-math.sty
+Package: lualatex-math 2016/04/16 v1.6 Patches for mathematics typesetting with 
+LuaLaTeX
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.st
+y
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count162
+)
+Lua module: lualatex-math 2013/08/03 1.3 Patches for mathematics typesetting wit
+h LuaLaTeX)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setoperatorfont with sig. 'm' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathfont with sig. 'O{}mO{}' on line 280.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addnolimits with sig. 'm' on line 523.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \removenolimits with sig. 'm' on line 527.
+.................................................
+
+(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode
+-math-table.tex)))
+luaotfload | cache : Lookup cache loaded from /home/maximilian/.local/texlive/20
+16/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load luc: /
+home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lat
+inmodern-math.luc)
+\g__fontspec_family_LatinModernMath_int=\count163
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "LatinModernMath/B" (it probably doesn't exist).
+.................................................
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 41
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LatinModernMath(0)' created for font 'Latin Modern Math' with
+. options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=10-},{Size=7-10,Font=Latin
+. Modern Math,Style=MathScript},{Size=-7,Font=Latin Modern
+. Math,Style=MathScriptScript}}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <10->"LatinModernMath:mode=base;script=math;language=DFLT;"<7-10>"LatinModernM
+ath:mode=base;script=math;language=DFLT;+ssty=0;"<-7>"LatinModernMath:mode=base;
+script=math;language=DFLT;+ssty=1;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+.................................................
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/LatinModernMath(0)/m/n on input line 
+44.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/LatinModernMath(0)/bx/n on input lin
+e 44.
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "LatinModernMath/B" (it probably doesn't exist).
+.................................................
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 41
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LatinModernMath(1)' created for font 'Latin Modern Math' with
+. options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=10-},{Size=7-10,Font=Latin
+. Modern Math,Style=MathScript},{Size=-7,Font=Latin Modern
+. Math,Style=MathScriptScript}},Scale=1.00001,FontAdjustment={\fontdimen
+. 8\font =443678.72sp\relax \fontdimen 9\font =258211.84sp\relax \fontdimen
+. 10\font =290979.84sp\relax \fontdimen 11\font =449576.96sp\relax \fontdimen
+. 12\font =226099.2sp\relax \fontdimen 13\font =237895.68sp\relax \fontdimen
+. 14\font =237895.68sp\relax \fontdimen 15\font =189399.04sp\relax \fontdimen
+. 16\font =161873.92sp\relax \fontdimen 17\font =0sp\relax \fontdimen 18\font
+. =163840sp\relax \fontdimen 19\font =131072sp\relax \fontdimen 20\font
+. =0pt\relax \fontdimen 21\font =0pt\relax \fontdimen 22\font =163840sp\relax
+. }].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <10->s*[1.00001]"LatinModernMath:mode=base;script=math;language=DFLT;"<7-10>s*
+[1.00001]"LatinModernMath:mode=base;script=math;language=DFLT;+ssty=0;"<-7>s*[1.
+00001]"LatinModernMath:mode=base;script=math;language=DFLT;+ssty=1;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \fontdimen 8\font =443678.72sp\relax \fontdimen 9\font =258211.84sp\relax
+. \fontdimen 10\font =290979.84sp\relax \fontdimen 11\font =449576.96sp\relax
+. \fontdimen 12\font =226099.2sp\relax \fontdimen 13\font =237895.68sp\relax
+. \fontdimen 14\font =237895.68sp\relax \fontdimen 15\font =189399.04sp\relax
+. \fontdimen 16\font =161873.92sp\relax \fontdimen 17\font =0sp\relax
+. \fontdimen 18\font =163840sp\relax \fontdimen 19\font =131072sp\relax
+. \fontdimen 20\font =0pt\relax \fontdimen 21\font =0pt\relax \fontdimen
+. 22\font =163840sp\relax 
+.................................................
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/LatinModernMath(1)/m/n on input line
+ 44.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/LatinModernMath(1)/bx/n on input lin
+e 44.
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "LatinModernMath/B" (it probably doesn't exist).
+.................................................
+luaotfload | aux : font no 41 (nil) does not define feature smcp for script math
+ with language dflt
+luaotfload | aux : no font with id 41
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LatinModernMath(2)' created for font 'Latin Modern Math' with
+. options
+. [Renderer=Basic,BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Siz
+e=10-},{Size=7-10,Font=Latin
+. Modern Math,Style=MathScript},{Size=-7,Font=Latin Modern
+. Math,Style=MathScriptScript}},Scale=0.99999,FontAdjustment={\fontdimen
+. 8\font =26214.4sp\relax \fontdimen 9\font =131072sp\relax \fontdimen 10\font
+. =109445.12sp\relax \fontdimen 11\font =72744.96sp\relax \fontdimen 12\font
+. =393216sp\relax \fontdimen 13\font =0pt\relax }].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <10->s*[0.99999]"LatinModernMath:mode=base;script=math;language=DFLT;"<7-10>s*
+[0.99999]"LatinModernMath:mode=base;script=math;language=DFLT;+ssty=0;"<-7>s*[0.
+99999]"LatinModernMath:mode=base;script=math;language=DFLT;+ssty=1;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. and font adjustment code:
+. \fontdimen 8\font =26214.4sp\relax \fontdimen 9\font =131072sp\relax
+. \fontdimen 10\font =109445.12sp\relax \fontdimen 11\font =72744.96sp\relax
+. \fontdimen 12\font =393216sp\relax \fontdimen 13\font =0pt\relax 
+.................................................
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 44
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(2)/m/n on input line
+ 44.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 44.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/LatinModernMath(2)/bx/n on input lin
+e 44.
+)
+.................................................
+. lualatex-math info: "patch-macro"
+. 
+. I'm going to patch macro \frac.
+.................................................
+ (./Camera.aux)
 \openout1 = Camera.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -1369,11 +1589,6 @@ LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 37.
-
-(/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 37.
@@ -1382,16 +1597,16 @@ ABD: EveryShipout initializing macros
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count160
+\scratchcounter=\count164
 \scratchdimen=\dimen186
 \scratchbox=\box54
-\nofMPsegments=\count161
-\nofMParguments=\count162
+\nofMPsegments=\count165
+\nofMParguments=\count166
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count163
+\MPscratchCnt=\count167
 \MPscratchDim=\dimen187
-\MPnumerator=\count164
-\makeMPintoPDFobject=\count165
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
 \everyMPtoPDFconversion=\toks31
 )
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-ba
@@ -1438,99 +1653,45 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-.................................................
-. fontspec info: "setup-math"
-. 
-. Adjusting the maths setup (use [no-math] to avoid this).
-.................................................
-\symlegacymaths=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 37.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 37.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 37.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 37.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 37.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 37.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 37.
-LaTeX Font Info:    Redeclaring math accent \check on input line 37.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 37.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 37.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 37.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 37.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 37.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 37.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 37.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 37.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 37.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSans(0)/m/n on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 37.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/FiraSans(0)/bx/n on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 37.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 64.
 LaTeX Font Info:    Font shape `TU/FiraSans(0)/bx/n' will be
 (Font)              scaled to size 24.88pt on input line 64.
-(load luc: /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/f
-onts/otl/lmroman17-regular.luc)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <24.88> on input line 66.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 66.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 66.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 24.88037pt on input line 66.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 20.74031pt on input line 66.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(1)/m/n' will be
+(Font)              scaled to size 17.28026pt on input line 66.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 24.87962pt on input line 66.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 20.73969pt on input line 66.
+LaTeX Font Info:    Font shape `TU/LatinModernMath(2)/m/n' will be
+(Font)              scaled to size 17.27972pt on input line 66.
  [1
 
 {/home/maximilian/.local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.m
 ap}] (./Camera.aux))
 
 Here is how much of LuaTeX's memory you used:
- 23033 strings out of 494577
- 100000,662416 words of node,token memory allocated
- 5795 words of node memory still in use:
-   68 hlist, 4 vlist, 1 rule, 13 disc, 3 local_par, 2 math, 129 glue, 23 kern, 6
- penalty, 105 glyph, 484 attribute, 44 glue_spec, 484 attribute_list, 1 write, 3
+ 27415 strings out of 494577
+ 100000,794899 words of node,token memory allocated
+ 5824 words of node memory still in use:
+   69 hlist, 4 vlist, 1 rule, 13 disc, 4 local_par, 2 math, 131 glue, 22 kern, 6
+ penalty, 105 glyph, 484 attribute, 45 glue_spec, 484 attribute_list, 1 write, 3
 53 pdf_literal, 4 pdf_colorstack nodes
-   avail lists: 2:26,3:361,4:9,5:34,6:109,7:144,8:2,9:76,10:3,11:13
- 25851 multiletter control sequences out of 65536+600000
- 56 fonts using 12955255 bytes
- 55i,7n,87p,419b,633s stack positions out of 5000i,500n,10000p,200000b,100000s
-</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/fira/Fira
-Sans-Bold.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb>
-Output written on Camera.pdf (1 page, 23163 bytes).
+   avail lists: 1:10,2:26,3:361,4:9,5:33,6:110,7:146,8:2,9:77,10:1,11:13
+ 30106 multiletter control sequences out of 65536+600000
+ 57 fonts using 20591343 bytes
+ 55i,7n,87p,1002b,637s stack positions out of 5000i,500n,10000p,200000b,100000s
+</home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/lm-math/l
+atinmodern-math.otf></home/maximilian/.local/texlive/2016/texmf-dist/fonts/opent
+ype/public/fira/FiraSans-Bold.otf>
+Output written on Camera.pdf (1 page, 17851 bytes).
 
-PDF statistics: 23 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+PDF statistics: 26 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
