@@ -559,6 +559,11 @@ INPUT ./tikz/Motiv/Motiv.pdf
 INPUT ./tikz/Motiv/Motiv.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
+INPUT ./tikz/ThetaCut/ThetaCut.pdf
+INPUT ./tikz/ThetaCut/ThetaCut.pdf
+INPUT ./tikz/ThetaCut/ThetaCut.pdf
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
 INPUT ./Plots/roc_info.pdf
 INPUT ./Plots/roc_info.pdf
 INPUT ./Plots/roc_info.pdf

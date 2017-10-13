@@ -5,6 +5,6 @@
 \beamer@sectionintoc {2}{Modelle}{16}{0}{2}
 \beamer@sectionintoc {3}{Überblick}{23}{0}{3}
 \beamer@sectionintoc {4}{Training}{24}{0}{4}
-\beamer@sectionintoc {5}{Validieren auf echten Daten}{29}{0}{5}
-\beamer@sectionintoc {6}{Mögliche Ursachen}{35}{0}{6}
-\beamer@sectionintoc {7}{Fazit}{40}{0}{7}
+\beamer@sectionintoc {5}{Validieren auf echten Daten}{30}{0}{5}
+\beamer@sectionintoc {6}{Mögliche Ursachen}{36}{0}{6}
+\beamer@sectionintoc {7}{Fazit}{41}{0}{7}
