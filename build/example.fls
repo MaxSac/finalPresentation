@@ -564,11 +564,6 @@ INPUT ./tikz/ThetaCut/ThetaCut.pdf
 INPUT ./tikz/ThetaCut/ThetaCut.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
-INPUT ./Plots/roc_info.pdf
-INPUT ./Plots/roc_info.pdf
-INPUT ./Plots/roc_info.pdf
-INPUT ./logos/tu.pdf
-INPUT ./logos/tu.pdf
 INPUT ./Plots/theta_cut.pdf
 INPUT ./Plots/theta_cut.pdf
 INPUT ./Plots/theta_cut.pdf
