@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  13 OCT 2017 14:50
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  18 OCT 2017 11:44
  restricted system commands enabled.
 **ThetaCut.tex
 (./ThetaCut.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.102 seconds
+luaotfload | main : initialization completed in 0.101 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/generic/luatex85/luatex85.
@@ -1692,24 +1692,27 @@ Package grfext Info: Graphics extension search list:
 -sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
-)) [1
+))
+LaTeX Font Info:    Font shape `TU/FiraSans(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 49.
+ [1
 
 {/home/maximilian/.local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.m
 ap}] (./ThetaCut.aux))
 
 Here is how much of LuaTeX's memory you used:
- 28301 strings out of 494577
+ 28247 strings out of 494577
  100000,794899 words of node,token memory allocated
- 5757 words of node memory still in use:
-   178 hlist, 1 vlist, 1 rule, 117 glue, 28 glyph, 461 attribute, 45 glue_spec, 
-461 attribute_list, 1 write, 325 pdf_literal, 10 pdf_colorstack nodes
-   avail lists: 1:10,2:26,3:327,4:15,5:11,6:29,7:130,8:1,9:183
- 30970 multiletter control sequences out of 65536+600000
- 43 fonts using 12617351 bytes
- 55i,5n,87p,1004b,1135s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 3203 words of node memory still in use:
+   53 hlist, 1 vlist, 1 rule, 71 glue, 9 glyph, 291 attribute, 45 glue_spec, 291
+ attribute_list, 1 write, 218 pdf_literal, 12 pdf_colorstack nodes
+   avail lists: 1:11,2:26,3:220,4:17,5:11,6:10,7:84,8:1,9:58
+ 30913 multiletter control sequences out of 65536+600000
+ 44 fonts using 13050975 bytes
+ 55i,5n,87p,1004b,891s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/maximilian/.local/texlive/2016/texmf-dist/fonts/opentype/public/fira/Fira
 Sans-Regular.otf>
-Output written on ThetaCut.pdf (1 page, 14120 bytes).
+Output written on ThetaCut.pdf (1 page, 10123 bytes).
 
 PDF statistics: 19 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
