@@ -1,7 +1,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
 \select@language {german}
-\beamer@sectionintoc {1}{Basics}{2}{0}{1}
+\beamer@sectionintoc {1}{Grundlagen}{2}{0}{1}
 \beamer@sectionintoc {2}{Modelle}{16}{0}{2}
 \beamer@sectionintoc {3}{Überblick}{23}{0}{3}
 \beamer@sectionintoc {4}{Training}{24}{0}{4}

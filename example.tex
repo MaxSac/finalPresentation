@@ -21,6 +21,8 @@
 % Bibliographie 
 \usepackage[
   backend=biber,   
+  backref=false,
+  hyperref=false,
   style=authortitle-comp,
 ]{biblatex}
 \addbibresource{references.bib} 
@@ -40,7 +42,7 @@
 %Autor
 \author[M.~Sackel]{Maximilian Sackel}
 %Lehrstuhl/Fakultät
-\institute[Experimental Physics 5b]{Experimental Physiks 5b \\  Astroteilchenphysik}
+\institute[Experimentelle Physik 5b]{Experimentelle Physik 5b \\  Astroteilchenphysik}
 %Titelgrafik 
 \titlegraphic{\includegraphics[width=0.7\textwidth]{images/tudo-title-2.jpg}}
 
@@ -49,7 +51,7 @@
 
 \maketitle
 
-\section{Basics}
+\section{Grundlagen}
 \begin{frame}
   \begin{figure}
 	\centering
@@ -189,7 +191,7 @@
 	  \includegraphics[scale=1]<2->{./tikz/TrainingData/TrainingData.pdf}
 	\end{figure}
 	\begin{itemize}
-	  \item<1-> Trainingsdaten simuliert mit CORSIKA \textbf{, sowie Detektorsimulationen} 
+	  \item<1-> Trainingsdaten simuliert mit CORSIKA, sowie Detektorsimulationen
 	  \item<3-> gemessener Untergrund folgt der wahren Verteilung
 		\begin{itemize}
 		  \item<3-> Verbesserung der Separation
@@ -247,7 +249,9 @@
 \begin{frame}{Random Forest}
   \begin{columns}[onlytextwidth]
 	\column{.4\textwidth}
-	\begin{table}
+	\begin{centering}
+	  {\Large \bf Entscheidungsbaum}
+	  \begin{table}
 	  \centering
 	  \begin{tabular}{c c}
 		\toprule
@@ -261,12 +265,15 @@
 		\bottomrule
 	  \end{tabular}
 	\end{table}
+	\end{centering}
 	\column{.6\textwidth}
+	\begin{centering}
+	  {\Large \bf Random Forest}
 	\begin{table}
 	  \centering
 	  \begin{tabular}{c c c c c c}
 		\toprule
-		Ereignis & Konf$_{1}$ & Konf$_{2}$ & Konf$_{3}$ & \dots & $\Sigma_\text{i}$ Konf$_\text{i}$ \\
+		Ereignis & Konf$_{1}$ & Konf$_{2}$ & Konf$_{3}$ & \dots & $\overline{\text{Konf}}$ \\
 		\cmidrule(r){1-1} \cmidrule(lr){2-5} \cmidrule(l){6-6}
 		1 & \num{0.12} & \num{0.01} & \num{0.08} & \dots & \num{0.06} \\
 		2 & \num{0.40} & \num{0.66} & \num{0.53} & \dots & \num{0.56} \\
@@ -276,6 +283,7 @@
 		\bottomrule
 	  \end{tabular}
 	\end{table}
+	\end{centering}
   \end{columns}
 \end{frame}
 
@@ -383,10 +391,10 @@
 	  \centering
 	  \begin{tabular}{l s s}
 		\toprule
-		& MC-Daten & Messdaten \\
+		& Messdaten & MC-Daten \\
 		\cmidrule(r){2-3}
-		\texttt{XGBoost Classifier}	(Tiefe 1)	& \num{0.86(2)}	&\num{0.869(5)} \\ 
-		\texttt{Random Forrest}					& \num{0.87(1)} & \num{0.89(1)} \\
+		\texttt{XGBoost}	(Tiefe 1)	& \num{0.869(5)} & \num{0.86(2)}	\\ 
+		\texttt{Random Forest}					& \num{0.89(1)}  & \num{0.87(1)} \\
 		\bottomrule
 	  \end{tabular}
 	\end{table}

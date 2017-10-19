@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'build/example.blg'
-[28] biber:303> INFO - === Fri Oct 13, 2017, 09:50:11
-[48] Biber.pm:359> INFO - Reading 'build/example.bcf'
-[123] Biber.pm:835> INFO - Found 3 citekeys in bib section 0
-[138] Biber.pm:3670> INFO - Processing section 0
-[150] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
-[153] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[156] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
-[175] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[175] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[175] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'de-DE'
-[175] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
-[179] bbl.pm:608> INFO - Writing 'build/example.bbl' with encoding 'UTF-8'
-[180] bbl.pm:712> INFO - Output to build/example.bbl
+[29] biber:303> INFO - === Thu Oct 19, 2017, 20:48:52
+[44] Biber.pm:359> INFO - Reading 'build/example.bcf'
+[114] Biber.pm:835> INFO - Found 3 citekeys in bib section 0
+[128] Biber.pm:3670> INFO - Processing section 0
+[139] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[144] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[147] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[163] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[163] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[164] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[164] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
+[166] bbl.pm:608> INFO - Writing 'build/example.bbl' with encoding 'UTF-8'
+[167] bbl.pm:712> INFO - Output to build/example.bbl
