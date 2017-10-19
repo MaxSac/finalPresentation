@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  19 OCT 2017 20:56
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2017.4.10)  19 OCT 2017 21:37
  restricted system commands enabled.
 **example.tex
 (./example.tex
@@ -35,7 +35,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.101 seconds
+luaotfload | main : initialization completed in 0.102 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/home/maximilian/.local/texlive/2016/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
@@ -2538,7 +2538,7 @@ Here is how much of LuaTeX's memory you used:
    47 hlist, 8 vlist, 9 rule, 23 disc, 8 local_par, 1373 glue, 36 kern, 25 penal
 ty, 158 glyph, 625 attribute, 57 glue_spec, 625 attribute_list, 3 write, 26 pdf_
 colorstack, 1 pdf_setmatrix, 1 pdf_save, 1 pdf_restore nodes
-   avail lists: 1:4,2:536,3:243,4:121,5:199,6:760,7:512,8:104,9:392,10:10,11:136
+   avail lists: 1:4,2:536,3:243,4:121,5:197,6:760,7:512,8:104,9:392,10:10,11:136
 
  42333 multiletter control sequences out of 65536+600000
  62 fonts using 11983687 bytes
@@ -2559,7 +2559,7 @@ exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></home/maximilia
 n/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home
 /maximilian/.local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.
 pfb>
-Output written on example.pdf (40 pages, 4357929 bytes).
+Output written on example.pdf (40 pages, 4358805 bytes).
 
 PDF statistics: 1226 PDF objects out of 1440 (max. 8388607)
  826 compressed objects within 9 object streams

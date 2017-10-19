@@ -314,7 +314,7 @@
 \end{frame}
 
 \section{Training}
-\begin{frame}{Erstellen Trainingsdatensatzes}
+\begin{frame}{Erstellen des Trainingsdatensatzes}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
 	\begin{figure}
@@ -332,7 +332,7 @@
   \end{columns}
 \end{frame}
 
-\begin{frame}{Überprüfen Trainingsdatensatzes}
+\begin{frame}{Überprüfen des Trainingsdatensatzes}
   \begin{columns}[onlytextwidth]
 	\column{.5\textwidth}
 	\begin{figure}
@@ -341,11 +341,11 @@
 	\end{figure}
 	\column{.5\textwidth}
 	\begin{itemize}
-	  \item simulierte Proton-Datensets werden durch verschiedene Theta-Schnitte erstellt
+	  \item simulierte Proton-Datensets werden durch verschiedene $\theta^{2}$-Schnitte erstellt
 	  \item Modelle werden mit verschiedenen Proton-Datensets trainiert
 	\end{itemize}
 	\begin{enumerate}
-	  \item Detektoreigenschaften für große $\theta$ nicht zu vernachlässigen
+	  \item Detektoreigenschaften für große $\theta^{2}$ nicht zu vernachlässigen
 	  \item Abwägen zwischen Signifikanz und Reinheit des Datensatzes
 	\end{enumerate}
   \end{columns}
@@ -536,7 +536,7 @@
   \end{columns}
   \begin{itemize}
 	\item Konfidenzverteilung nicht direkt vergleichbar
-	\item Beide Bäume nach demselbem Kriterium gebaut
+	\item beide Bäume nach demselbem Kriterium gebaut
   \end{itemize}
 \end{frame}
 
@@ -552,8 +552,8 @@
 	\centering
 	\begin{tabular}{l c c}
 	  \toprule
-	  & ohne Attribut & mit Attribut \\
-	  & Eliminierung  & Eliminierung \\
+	  & ohne Feature 	& mit Feature\\
+	  & Elimination 	& Elimination\\
 	  \cmidrule(r){2-3}
 	  ROC-AUC-Wert            & \num{0.64} & \num{0.61} \\
 	  Li und Ma Signifikanz   & \SI{32.9}{\sigma} & \SI{34.4}{\sigma} \\
