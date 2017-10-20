@@ -1,0 +1,16 @@
+\RequirePackage{luatex85}
+\documentclass[border=0pt]{standalone}
+\usepackage{tikz}
+\input{../tikzstyle.tex}
+\begin{document}
+\begin{tikzpicture}
+	\node[inner sep=0pt] (Fifth) at (-4,4)
+	    {\includegraphics{../../Plots/small_theta_cut.pdf}};
+	\node[inner sep=0pt] (Fifth) at (2,1.5)
+	    {\includegraphics[scale=0.8]{../../Plots/conf.pdf}};
+	\node[inner sep=0pt] (Fifth) at (2,-4)
+		{\includegraphics[scale=0.6]{../../Plots/feature_elemination.pdf}};
+	\node[inner sep=0pt] (Fifth) at (-4,-2)
+	    {\includegraphics[scale=1.1]{../../Plots/sig_mess_tree.pdf}};
+\end{tikzpicture}
+\end{document}

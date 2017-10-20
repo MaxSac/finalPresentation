@@ -44,7 +44,7 @@
 %Lehrstuhl/Fakultät
 \institute[Experimentelle Physik 5b]{Experimentelle Physik 5b \\  Astroteilchenphysik}
 %Titelgrafik 
-\titlegraphic{\includegraphics[width=0.7\textwidth]{images/tudo-title-2.jpg}}
+\titlegraphic{\includegraphics[width=0.52\textwidth]{./images/FACT2.jpg}}
 
 
 \begin{document}
@@ -80,7 +80,8 @@
 	  \end{figure}
 	}
   \end{columns}
-  {\tiny \textbf{Quelle:} \cite{FACT}}
+  \vspace{0.1cm}
+  	{\tiny \textbf{Quelle:} \cite{FACT}}
 \end{frame}
 
 \begin{frame}
@@ -196,7 +197,7 @@
 		\begin{itemize}
 		  \item<3-> Verbesserung der Separation
 		\end{itemize}
-	  \item<4-> Protonen-Simulation kann eingestellt werden
+	  \item<4-> Protonen-Simulation kann reduziert werden
 	\end{itemize}
   \end{frame}
 
@@ -569,12 +570,24 @@
 
 \section{Fazit}
 \begin{frame}
+  \begin{columns}[onlytextwidth]
+	\column{.4\textwidth}
+	\onslide<1->{
   \begin{itemize}
 	\item momentan keine Verbesserung
 	\item Verbesserung der Monte Carlo-Simulationen 
 	\item Datennahme von OFF-Daten
 	\item Mismatch-unempfindliches Modell
   \end{itemize}
+}
+	\column{.6\textwidth}
+	\onslide<2>{
+  \begin{figure}
+	\centering
+	\includegraphics[height=1.0\textheight]{./tikz/Conclusion/Conclusion.pdf}
+  \end{figure}
+}
+  \end{columns}
 \end{frame}
 
 \end{document}

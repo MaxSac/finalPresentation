@@ -435,9 +435,9 @@ INPUT /home/maximilian/.local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr6.t
 INPUT /home/maximilian/.local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
 INPUT /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc
 INPUT /home/maximilian/.local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl/lmmono8-regular.luc
-INPUT ./images/tudo-title-2.jpg
-INPUT ./images/tudo-title-2.jpg
-INPUT images/tudo-title-2.jpg
+INPUT ./images/FACT2.jpg
+INPUT ./images/FACT2.jpg
+INPUT ./images/FACT2.jpg
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./images/sources-detection.jpg
@@ -642,6 +642,13 @@ INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
+INPUT ./tikz/Conclusion/Conclusion.pdf
+INPUT ./tikz/Conclusion/Conclusion.pdf
+INPUT ./tikz/Conclusion/Conclusion.pdf
+INPUT ./logos/tu.pdf
+INPUT ./logos/tu.pdf
+INPUT ./tikz/Conclusion/Conclusion.pdf
+INPUT ./tikz/Conclusion/Conclusion.pdf
 INPUT ./logos/tu.pdf
 INPUT ./logos/tu.pdf
 OUTPUT build/example.nav
